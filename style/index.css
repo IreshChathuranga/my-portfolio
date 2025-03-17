@@ -65,6 +65,7 @@ main{
     height: 100vh;
     background: black;
     position: relative;
+    overflow: hidden;
 }
 .socialmedia a img{
     width: 30px;
@@ -199,6 +200,17 @@ span{
     position: absolute;
     top: 200px;
     right: 170px;
+}
+#name{
+    color: #5bdc0b;
+    font-family: "Monoton", sans-serif;
+    font-size: 120px;
+    white-space: nowrap;
+    position: absolute;
+    top: 500px;
+    letter-spacing: 20px;
+    animation: scrollText 50s linear infinite;
+    word-spacing: 70px;
 }
 @keyframes animate {
     0% {
