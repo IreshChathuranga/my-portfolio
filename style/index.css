@@ -169,4 +169,13 @@ main{
     position: absolute;
     right: 475px;
     top: 95px;
+    animation: animate 70s linear infinite;
+}
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 400% 50%;
+    }
 }
