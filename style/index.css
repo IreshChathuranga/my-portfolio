@@ -93,3 +93,46 @@ main{
     transition: 1s;
     transition-property: transform;
 }
+.socialmedia a:hover{
+    transform: translate(30px, 0);
+}
+#facebook:hover{
+    background: #1877F2;
+}
+#facebookimg{
+    transition: 0.3s ease;
+}
+#facebookimg:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px #ffffff;
+}
+#github:hover{
+    background:  #181717;
+}
+#githubimg{
+    transition: 0.3s ease;
+}
+#githubimg:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px #ffffff;
+}
+#instergram:hover{
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+#instergramimg{
+    transition: 0.3s ease;
+}
+#instergramimg:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px #ffffff;
+}
+#linkedin:hover{
+    background: #0A66C2;;
+}
+#linkedinimg{
+    transition: 0.3s ease;
+}
+#linkedinimg:hover{
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px #ffffff;
+}
