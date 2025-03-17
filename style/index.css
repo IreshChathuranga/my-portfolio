@@ -32,3 +32,15 @@ section{
     gap: 50px;
     margin-right: 30px;
 }
+.navmenu li{
+    list-style: none;
+    font-size: 14px;
+}
+.navmenu li a{
+    text-decoration: none;/*underline eka nathi kirima*/
+    font-weight: bold;
+    font-family: Arial;
+    color: #c9ff00;
+    transition: 0.3s ease;/*glow eka time eka*/
+    position: relative;
+}
