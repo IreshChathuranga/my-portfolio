@@ -171,14 +171,6 @@ main{
     top: 95px;
     animation: animate 70s linear infinite;
 }
-@keyframes animate {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 400% 50%;
-    }
-}
 .description>div:nth-child(2){
     color: white;
     font-weight: bold;
@@ -200,6 +192,21 @@ span{
     display: block;
     line-height: 60px;
     animation: spin_words 30s infinite;
+}
+.p1{
+    color: #9b9b99;
+    font-size: 20px;
+    position: absolute;
+    top: 200px;
+    right: 170px;
+}
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 400% 50%;
+    }
 }
 @keyframes spin_words {
     10% {
