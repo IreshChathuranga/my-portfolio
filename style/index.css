@@ -37,10 +37,28 @@ section{
     font-size: 14px;
 }
 .navmenu li a{
-    text-decoration: none;/*underline eka nathi kirima*/
+    text-decoration: none;
     font-weight: bold;
     font-family: Arial;
     color: #c9ff00;
-    transition: 0.3s ease;/*glow eka time eka*/
+    transition: 0.3s ease;
     position: relative;
+}
+.navmenu li a:hover {
+    color: #fff;
+    transform: scale(1.1);
+    text-shadow: 0px 0px 10px #c9ff00;
+}
+.navmenu li a:before{
+    content: '';
+    position: absolute;
+    background: #c9ff00;
+    width: 0;
+    height: 2px;
+    bottom: -7px;
+    left: 0;
+    transition: 0.7s ease;
+}
+.navmenu li a:hover:before{
+    width: 100%;
 }
