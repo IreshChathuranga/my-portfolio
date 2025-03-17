@@ -179,3 +179,14 @@ main{
         background-position: 400% 50%;
     }
 }
+.description>div:nth-child(2){
+    color: white;
+    font-weight: bold;
+    font-family: Dubai;
+    font-size: 60px;
+    position: absolute;
+    top: 143px;
+    right: 40px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
