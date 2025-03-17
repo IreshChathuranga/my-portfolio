@@ -1,18 +1,25 @@
+:root{
+    --main-width:100%;
+    --main-height:100vh;
+    --main-color:#c9ff00;
+    --second-color:#ffffff;
+    --third-color:#000000FF;
+}
 body{
     overflow-x: hidden;
-    background: white;
+    background: var(--second-color);
 }
 header {
-    width: 100%;
-    background: black;
+    width: var(--main-width);
+    background: var(--third-color);
 }
 main{
     position: relative;
 }
 .nav{
     display: flex;
-    border-bottom: 1px solid #c9ff00;
-    width: 100%;
+    border-bottom: 1px solid var(--main-color);
+    width: var(--main-width);
     height: 55px;
     position: fixed;
     z-index: 2;
@@ -37,19 +44,19 @@ main{
     text-decoration: none;
     font-weight: bold;
     font-family: Arial;
-    color: #c9ff00;
+    color: var(--main-color);
     transition: 0.3s ease;
     position: relative;
 }
 .navmenu li a:hover {
-    color: #fff;
+    color: var(--second-color);
     transform: scale(1.1);
-    text-shadow: 0px 0px 10px #c9ff00;
+    text-shadow: 0px 0px 10px var(--main-color);
 }
 .navmenu li a:before{
     content: '';
     position: absolute;
-    background: #c9ff00;
+    background: var(--main-color);
     width: 0;
     height: 2px;
     bottom: -7px;
@@ -57,13 +64,13 @@ main{
     transition: 0.7s ease;
 }
 .navmenu li a:hover:before{
-    width: 100%;
+    width: var(--main-width);
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 .herosection{
-    width: 100%;
-    height: 100vh;
-    background: black;
+    width: var(--main-width);
+    height: var(--main-height);
+    background: var(--third-color);
     position: relative;
     overflow: hidden;
 }
@@ -72,6 +79,7 @@ main{
     height: 30px;
 }
 .socialbar{
+    z-index: 3;
     height: 55vh;
     display: flex;
     flex-direction: column;
@@ -105,7 +113,7 @@ main{
 }
 #facebookimg:hover{
     transform: scale(1.1);
-    text-shadow: 0px 0px 10px #ffffff;
+    text-shadow: 0px 0px 10px var(--second-color);
 }
 #github:hover{
     background:  #181717;
@@ -115,7 +123,7 @@ main{
 }
 #githubimg:hover{
     transform: scale(1.1);
-    text-shadow: 0px 0px 10px #ffffff;
+    text-shadow: 0px 0px 10px var(--second-color);
 }
 #instergram:hover{
     background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
@@ -125,7 +133,7 @@ main{
 }
 #instergramimg:hover{
     transform: scale(1.1);
-    text-shadow: 0px 0px 10px #ffffff;
+    text-shadow: 0px 0px 10px var(--second-color);
 }
 #linkedin:hover{
     background: #0A66C2;;
@@ -135,7 +143,7 @@ main{
 }
 #linkedinimg:hover{
     transform: scale(1.1);
-    text-shadow: 0px 0px 10px #ffffff;
+    text-shadow: 0px 0px 10px var(--second-color);
 }
 /*/////////////////////////////////////////////////////////////////////////////*/
 
@@ -145,7 +153,7 @@ main{
 .profile{
     position: absolute;
     top: 60px;
-    width: 100%;
+    width: var(--main-width);
     height: 1100px;
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
@@ -173,7 +181,7 @@ main{
     animation: animate 70s linear infinite;
 }
 .description>div:nth-child(2){
-    color: white;
+    color: var(--second-color);
     font-weight: bold;
     font-family: Dubai;
     font-size: 60px;
