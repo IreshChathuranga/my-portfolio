@@ -26,3 +26,9 @@ section{
     width: 80px;
     height: 70px;
 }
+.navmenu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 30px;
+}
