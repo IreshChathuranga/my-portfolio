@@ -190,3 +190,8 @@ main{
     letter-spacing: 5px;
     word-spacing: 10px;
 }
+.words{
+    height: 60px;
+    overflow: hidden;
+    align-items: center;
+}
