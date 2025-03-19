@@ -228,6 +228,16 @@ span{
     display: flex;
     justify-content: center;
 }
+.wrapper>h1{
+    align-self: start;
+    position:absolute;
+    top: 5%;
+    color: #c7c3c3;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    font-family: Dubai;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
