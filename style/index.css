@@ -365,6 +365,26 @@ span{
     top: 0;
     border-radius: 30px;
 }
+.btn1::before{
+    content: "";
+    background: linear-gradient(45deg,
+    #8CFF32, #D4FF32, #E9FF32, #FDFF32, #FFFFFF,
+    #ffffff , #0088d1, #344daf, #515bd4,
+    #2c0942,#cecec9
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    filter: blur(2.3px);
+    border-radius: 30px;
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    opacity: 1;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
