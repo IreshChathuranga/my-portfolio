@@ -522,6 +522,11 @@ input:checked + label .desc{
         top: 190px;
         right: 3px;
     }
+    .p1{
+        font-size: 15px;
+        top: 230px;
+        right: 85px;
+    }
 }
 @keyframes circle1_animate {
     from{
