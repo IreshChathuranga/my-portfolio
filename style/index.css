@@ -486,6 +486,15 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@media all and (max-width: 800px) {
+    .myicon{
+        width: 65px;
+        height: 55px;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
