@@ -298,6 +298,19 @@ span{
     position: absolute;
     bottom: 0;
 }
+.desc{
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 350px;
+    margin-left: 20px;
+    opacity: 0;
+    margin-bottom: 10px;
+    padding-right: 30px;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
