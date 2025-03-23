@@ -505,6 +505,13 @@ input:checked + label .desc{
         width: 20px;
         height: 20px;
     }
+    .socialbar{
+        height: 40vh;
+        gap: 10px;
+        top: 0;
+        bottom: 40px;
+        transform: translate(-70px, 0);
+    }
 }
 @keyframes circle1_animate {
     from{
