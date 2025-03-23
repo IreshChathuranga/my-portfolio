@@ -527,6 +527,11 @@ input:checked + label .desc{
         top: 230px;
         right: 85px;
     }
+    .wrapper>h1{
+        top: 5%;
+        font-size: 17px;
+        letter-spacing: 15px;
+    }
 }
 @keyframes circle1_animate {
     from{
