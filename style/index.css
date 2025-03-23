@@ -538,6 +538,12 @@ input:checked + label .desc{
         height: 300px;
         gap: 20px;
     }
+    .card> .row>.icon{
+        width: 30px;
+        height: 30px;
+        bottom: -8px;
+        left: -10px;
+    }
 }
 @keyframes circle1_animate {
     from{
