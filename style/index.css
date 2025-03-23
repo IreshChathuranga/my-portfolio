@@ -512,6 +512,11 @@ input:checked + label .desc{
         bottom: 40px;
         transform: translate(-70px, 0);
     }
+    .description > div:first-child {
+        font-size: 30px;
+        right: 300px;
+        top: 160px;
+    }
 }
 @keyframes circle1_animate {
     from{
