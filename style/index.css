@@ -517,6 +517,11 @@ input:checked + label .desc{
         right: 300px;
         top: 160px;
     }
+    .description>div:nth-child(2){
+        font-size: 40px;
+        top: 190px;
+        right: 3px;
+    }
 }
 @keyframes circle1_animate {
     from{
