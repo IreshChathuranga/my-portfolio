@@ -385,6 +385,16 @@ span{
     transition: opacity .3s ease-in-out;
     opacity: 1;
 }
+input{
+    display: none;
+}
+input:checked + label{
+    width: 500px;
+}
+input:checked + label .desc{
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
