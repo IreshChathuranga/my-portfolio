@@ -550,6 +550,11 @@ input:checked + label .desc{
         font-size: 15px;
         margin-bottom: 30px;
     }
+    .assignment>h1{
+        top: 5%;
+        font-size: 17px;
+        letter-spacing: 15px;
+    }
 }
 @keyframes circle1_animate {
     from{
