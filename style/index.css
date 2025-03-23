@@ -424,6 +424,15 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+.circle2{
+    position: absolute;
+    top: 30px;
+    right:50px;
+    border-radius: 100%;
+    background-image: linear-gradient(200deg, #111111, #21214f, #1f4f4f, #491754,
+    #911775, #494747);
+    filter: blur(80px);
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
