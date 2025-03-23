@@ -532,6 +532,12 @@ input:checked + label .desc{
         font-size: 17px;
         letter-spacing: 15px;
     }
+    .container{
+        top: 150px;
+        width: 600px;
+        height: 300px;
+        gap: 20px;
+    }
 }
 @keyframes circle1_animate {
     from{
