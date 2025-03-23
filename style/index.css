@@ -544,6 +544,12 @@ input:checked + label .desc{
         bottom: -8px;
         left: -10px;
     }
+    .wrapper>button{
+        width: 130px;
+        height: 50px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
 }
 @keyframes circle1_animate {
     from{
