@@ -249,6 +249,23 @@ span{
     align-self: center;
     gap: 30px;
 }
+.wrapper>button{
+    position: relative;
+    align-self: end;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 20px;
+    font-family: "Baloo Da 2", sans-serif;
+    margin-bottom: 14px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    z-index: 3;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
