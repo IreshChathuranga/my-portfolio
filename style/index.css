@@ -501,6 +501,10 @@ input:checked + label .desc{
         border-bottom: 1px solid transparent;
         backdrop-filter: blur(0);
     }
+    .socialmedia a img{
+        width: 20px;
+        height: 20px;
+    }
 }
 @keyframes circle1_animate {
     from{
