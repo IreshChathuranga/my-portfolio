@@ -347,6 +347,13 @@ span{
     border-radius: 30px;
     font-family: Dubai;
 }
+.btn1{
+    letter-spacing: 2px;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
