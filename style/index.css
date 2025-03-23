@@ -311,6 +311,21 @@ span{
     transition-delay: .3s;
     transition: all .3s ease;
 }
+.desc h4{
+    font-weight: bold;
+    font-family: Dubai;
+    font-size: 30px;
+    letter-spacing: 11px;
+    position: absolute;
+    border-radius: 10px;
+    border-top: 1px solid #cad100;
+    border-bottom: 1px solid #cad100;
+    backdrop-filter: blur(5px);
+    right: 0;
+    left: 0px;
+    margin: auto;
+    color: white;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
