@@ -494,6 +494,13 @@ input:checked + label .desc{
         top: 10px;
         left: 15px;
     }
+    .navmenu {
+        display: none;
+    }
+    .nav{
+        border-bottom: 1px solid transparent;
+        backdrop-filter: blur(0);
+    }
 }
 @keyframes circle1_animate {
     from{
