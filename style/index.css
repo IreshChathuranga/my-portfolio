@@ -335,6 +335,18 @@ span{
     padding-left: 20px;
     border-radius: 20px;
 }
+.desc button{
+    padding: 17px 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 297px;
+    right: 3px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: Dubai;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
