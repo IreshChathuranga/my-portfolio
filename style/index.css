@@ -454,6 +454,17 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+.circle4{
+    position: absolute;
+    top: 350px;
+    right: 500px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #111111, #28282a, #494747, #7d7f81,
+    #C1C9D9, #494747);
+    filter: blur(20px);
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
