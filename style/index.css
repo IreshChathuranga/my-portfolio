@@ -326,6 +326,15 @@ span{
     margin: auto;
     color: white;
 }
+.desc p{
+    color: #cecec9;
+    font-family: Dubai;
+    position: absolute;
+    top: 50px;
+    backdrop-filter: blur(5px);
+    padding-left: 20px;
+    border-radius: 20px;
+}
 @keyframes animate {
     0% {
         background-position: 0% 50%;
