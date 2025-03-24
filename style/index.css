@@ -618,6 +618,17 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+.circle10 {
+    position: absolute;
+    top: 350px;
+    right: 700px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-image: linear-gradient(200deg, #111111, #5a138a, #be206a, #b90e38,
+    #f3759c, #e7c1c1);
+    filter: blur(50px);
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
