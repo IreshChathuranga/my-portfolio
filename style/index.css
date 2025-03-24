@@ -576,6 +576,11 @@ input:checked + label .desc{
     background-image: linear-gradient(90deg, #111111, #28282a, #494747, #7d7f81,
     #C1C9D9, #494747);
     filter: blur(80px);
+    animation-name: circle7_animate;
+    animation-duration:5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 
@@ -640,6 +645,16 @@ input:checked + label .desc{
         height: 150px;
         top: 100px;
         right: 1100px;
+    }
+}
+@keyframes circle7_animate {
+    from{
+        width: 80px;
+        height: 80px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
     }
 }
 @keyframes animate {
