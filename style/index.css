@@ -596,6 +596,11 @@ input:checked + label .desc{
     #2c0942, #cecec9
     );
     filter: blur(50px);
+    animation-name: circle8_animate;
+    animation-duration: 20s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes circle1_animate {
@@ -669,6 +674,20 @@ input:checked + label .desc{
     to{
         width: 200px;
         height: 200px;
+    }
+}
+@keyframes circle8_animate {
+    0%{
+        top: 350px;
+        right: 700px;
+    }
+    50%{
+        top: 200px;
+        right: 400px;
+    }
+    100%{
+        top: 650px;
+        right: 100px;
     }
 }
 @keyframes animate {
