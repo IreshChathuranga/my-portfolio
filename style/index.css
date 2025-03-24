@@ -221,7 +221,7 @@ span{
     word-spacing: 70px;
 }
 
-
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
 .wrapper{
     background: #111111;
     width: 100%;
@@ -485,6 +485,16 @@ input:checked + label .desc{
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+.assignment{
+    background: #111111;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
 }
 @media all and (max-width: 800px) {
     .myicon{
