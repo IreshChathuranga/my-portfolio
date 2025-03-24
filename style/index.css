@@ -553,6 +553,16 @@ input:checked + label .desc{
     cursor: pointer;
     z-index: 3;
 }
+.circle6 {
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    right: 970px;
+    border-radius: 100%;
+    background-image: linear-gradient(200deg, #111111, #b9b9da, #1f4188, #7722c7,
+    #d40fda, #d90b72);
+    filter: blur(40px);
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
