@@ -507,6 +507,12 @@ input:checked + label .desc{
     letter-spacing: 20px;
     font-family: Dubai;
 }
+.mainslider{
+    align-self: center;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+}
 @media all and (max-width: 800px) {
     .myicon{
         width: 65px;
