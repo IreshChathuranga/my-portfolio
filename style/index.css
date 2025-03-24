@@ -563,6 +563,12 @@ input:checked + label .desc{
         letter-spacing: 7px;
         border-radius: 7px;
     }
+    .desc p{
+        font-size: 10px;
+        margin: 10px;
+        padding-left: 16px;
+        border-radius: 10px;
+    }
     .assignment>h1{
         top: 5%;
         font-size: 17px;
