@@ -513,6 +513,11 @@ input:checked + label .desc{
     width: 100%;
     position: absolute;
 }
+.silder{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
 @media all and (max-width: 800px) {
     .myicon{
         width: 65px;
