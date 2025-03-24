@@ -533,6 +533,9 @@ input:checked + label .desc{
     display: flex;
     justify-content: center;
 }
+.item h1{
+    color: black;
+}
 @media all and (max-width: 800px) {
     .myicon{
         width: 65px;
