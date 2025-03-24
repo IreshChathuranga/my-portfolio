@@ -582,7 +582,21 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-
+.circle8 {
+    z-index: 0;
+    position: absolute;
+    top: 350px;
+    right: 700px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: linear-gradient(45deg,
+    #8CFF32, #D4FF32, #E9FF32, #FDFF32, #FFFFFF,
+    #ffffff, #0088d1, #344daf, #515bd4,
+    #2c0942, #cecec9
+    );
+    filter: blur(50px);
+}
 
 @keyframes circle1_animate {
     from{
