@@ -569,6 +569,13 @@ input:checked + label .desc{
         padding-left: 16px;
         border-radius: 10px;
     }
+    .desc button{
+        padding: 0px 0px;
+        top: 252px;
+        width: 80px;
+        height: 30px;
+        font-size: 7px;
+    }
     .assignment>h1{
         top: 5%;
         font-size: 17px;
