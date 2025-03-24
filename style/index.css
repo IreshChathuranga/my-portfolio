@@ -496,6 +496,17 @@ input:checked + label .desc{
     justify-content: center;
     z-index: 2;
 }
+.assignment>h1{
+    text-transform: uppercase;
+    align-self: start;
+    position:absolute;
+    top: 5%;
+    color: #c7c3c3;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 20px;
+    font-family: Dubai;
+}
 @media all and (max-width: 800px) {
     .myicon{
         width: 65px;
