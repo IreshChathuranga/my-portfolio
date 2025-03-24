@@ -550,6 +550,14 @@ input:checked + label .desc{
         font-size: 15px;
         margin-bottom: 30px;
     }
+    .desc{
+        width: 200px;
+        height: 290px;
+        top: 12px;
+        margin-left: 13px;
+        margin-bottom: 10px;
+        padding-right: 30px;
+    }
     .assignment>h1{
         top: 5%;
         font-size: 17px;
