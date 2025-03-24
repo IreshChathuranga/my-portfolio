@@ -568,6 +568,17 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 }
+.circle7 {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #111111, #28282a, #494747, #7d7f81,
+    #C1C9D9, #494747);
+    filter: blur(80px);
+}
+
+
 @keyframes circle1_animate {
     from{
         width: 320px;
