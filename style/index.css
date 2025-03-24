@@ -536,6 +536,115 @@ input:checked + label .desc{
 .item h1{
     color: black;
 }
+.getmore{
+    position: relative;
+    align-self: end;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    border: 0;
+    font-size: 20px;
+    font-family: "Baloo Da 2", sans-serif;
+    margin-bottom: 14px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    z-index: 3;
+}
+@keyframes circle1_animate {
+    from{
+        width: 320px;
+        height: 320px;
+        top: 100px;
+    }
+    to{
+        width: 150px;
+        height: 150px;
+        right: 1300px;
+    }
+}
+@keyframes circle2_animate {
+    from{
+        width: 80px;
+        height: 80px;
+    }
+    to{
+        width: 300px;
+        height: 300px;
+    }
+}
+@keyframes circle3_animate {
+    from{
+        top: 250px;
+    }
+    to{
+        right: 970px;
+    }
+}
+@keyframes circle4_animate {
+    from{
+        top: 350px;
+        right: 500px;
+    }
+    to{
+        top: 200px;
+        right: 300px;
+    }
+}
+@keyframes circle5_animate {
+    from{
+        top: 350px;
+        right: 700px;
+    }
+    to{
+        top: 400px;
+        right: 800px;
+    }
+}
+@keyframes animate {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 400% 50%;
+    }
+}
+@keyframes spin_words {
+    10% {
+        transform: translateY(-112%);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    35% {
+        transform: translateY(-212%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-312%);
+    }
+    75% {
+        transform: translateY(-300%);
+    }
+    85% {
+        transform: translateY(-412%);
+    }
+    100% {
+        transform: translateY(-400%);
+    }
+}
+@keyframes scrollText {
+    0% {
+        transform: translateX(10%);
+    }
+    100% {
+        transform: translateX(-30%);
+    }
+}
 @media all and (max-width: 800px) {
     .myicon{
         width: 65px;
@@ -640,97 +749,5 @@ input:checked + label .desc{
     .socialmedia a img{
         width: 17px;
         height: 17px;
-    }
-}
-@keyframes circle1_animate {
-    from{
-        width: 320px;
-        height: 320px;
-        top: 100px;
-    }
-    to{
-        width: 150px;
-        height: 150px;
-        right: 1300px;
-    }
-}
-@keyframes circle2_animate {
-    from{
-        width: 80px;
-        height: 80px;
-    }
-    to{
-        width: 300px;
-        height: 300px;
-    }
-}
-@keyframes circle3_animate {
-    from{
-        top: 250px;
-    }
-    to{
-        right: 970px;
-    }
-}
-@keyframes circle4_animate {
-    from{
-        top: 350px;
-        right: 500px;
-    }
-    to{
-        top: 200px;
-        right: 300px;
-    }
-}
-@keyframes circle5_animate {
-    from{
-        top: 350px;
-        right: 700px;
-    }
-    to{
-        top: 400px;
-        right: 800px;
-    }
-}
-@keyframes animate {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 400% 50%;
-    }
-}
-@keyframes spin_words {
-    10% {
-        transform: translateY(-112%);
-    }
-    25% {
-        transform: translateY(-100%);
-    }
-    35% {
-        transform: translateY(-212%);
-    }
-    50% {
-        transform: translateY(-200%);
-    }
-    60% {
-        transform: translateY(-312%);
-    }
-    75% {
-        transform: translateY(-300%);
-    }
-    85% {
-        transform: translateY(-412%);
-    }
-    100% {
-        transform: translateY(-400%);
-    }
-}
-@keyframes scrollText {
-    0% {
-        transform: translateX(10%);
-    }
-    100% {
-        transform: translateX(-30%);
     }
 }
