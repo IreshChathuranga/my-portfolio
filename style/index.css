@@ -653,6 +653,12 @@ input:checked + label .desc{
     width: 120px;
     height: 70px;
 }
+#htmlimg{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 120px;
+    height: 70px;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
