@@ -715,6 +715,15 @@ input:checked + label .desc{
     align-items: center;
     gap: 70px;
 }
+.languagebar>span {
+    transform: skewY(-10deg);
+    border-radius: 30px;
+    background: liner-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: block;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
