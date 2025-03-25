@@ -746,6 +746,15 @@ input:checked + label .desc{
     line-height: 90px;
     overflow: hidden;
 }
+.languages-name li {
+    list-style: none;
+    font-size: 45px;
+    font-weight: bold;
+    color: #c9ff00;
+    position: relative;
+    top: 0;
+    font-family: "Baloo Da 2", sans-serif;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
