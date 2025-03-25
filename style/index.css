@@ -641,6 +641,12 @@ input:checked + label .desc{
     height: 100vh;
     overflow: hidden;
 }
+#javaimg{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 120px;
+    height: 70px;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
