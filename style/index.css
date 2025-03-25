@@ -643,7 +643,7 @@ input:checked + label .desc{
 }
 #javaimg{
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     width: 120px;
     height: 70px;
 }
