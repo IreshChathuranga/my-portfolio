@@ -723,6 +723,7 @@ input:checked + label .desc{
     border: 3px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     display: block;
+    animation: scrollImages 60s infinite ease-in-out;
 }
 @keyframes circle1_animate {
     from{
@@ -837,6 +838,16 @@ input:checked + label .desc{
     }
     100% {
         background-position: 400% 50%;
+    }
+}
+@keyframes scrollImages{
+    0%{
+        transform: translateY(400%) skewY(-10deg);
+    } 50%{
+          transform: translateY(-250%) skewY(-10deg);
+      }
+    100%{
+        transform: translateY(400%) skewY(-10deg);
     }
 }
 @keyframes spin_words {
