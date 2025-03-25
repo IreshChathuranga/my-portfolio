@@ -679,7 +679,7 @@ input:checked + label .desc{
 }
 #phythonimg{
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     padding-left: 6px;
     width: 120px;
     height: 70px;
