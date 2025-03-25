@@ -634,6 +634,13 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.skill{
+    background: #111111;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
