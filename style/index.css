@@ -739,6 +739,13 @@ input:checked + label .desc{
     top: 250px;
     left: -50px;
 }
+.languages-name{
+    position: relative;
+    margin-left: 15px;
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
