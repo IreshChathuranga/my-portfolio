@@ -754,6 +754,12 @@ input:checked + label .desc{
     position: relative;
     top: 0;
     font-family: "Baloo Da 2", sans-serif;
+    animation: namescroll 18s steps(4) infinite;
+}
+@keyframes namescroll {
+    100%{
+        top: -360px;
+    }
 }
 @keyframes circle1_animate {
     from{
