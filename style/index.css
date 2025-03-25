@@ -677,6 +677,13 @@ input:checked + label .desc{
     width: 120px;
     height: 70px;
 }
+#phythonimg{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 6px;
+    width: 120px;
+    height: 70px;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
