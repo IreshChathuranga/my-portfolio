@@ -655,7 +655,7 @@ input:checked + label .desc{
 }
 #htmlimg{
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 10px;
     width: 120px;
     height: 70px;
 }
