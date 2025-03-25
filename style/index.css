@@ -691,6 +691,10 @@ input:checked + label .desc{
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
 }
+.languages>div{
+    border: 1px solid transparent;
+    position: relative;
+}
 @keyframes circle1_animate {
     from{
         width: 320px;
