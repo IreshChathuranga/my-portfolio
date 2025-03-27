@@ -926,7 +926,8 @@ input:checked + label .desc{
         transform: translateX(-30%);
     }
 }
-@media all and (max-width: 800px) {
+
+@media all and (max-width: 800px) and (min-width: 500px){
     .myicon{
         width: 65px;
         height: 55px;
@@ -1023,12 +1024,25 @@ input:checked + label .desc{
         letter-spacing: 15px;
     }
 }
-@media all and (max-width: 550px){
-    section{
-        height: 50vh;
+/*@media all and (max-width: 550px){*/
+/*    section{*/
+/*        height: 50vh;*/
+/*    }*/
+/*    .socialmedia a img{*/
+/*        width: 17px;*/
+/*        height: 17px;*/
+/*    }*/
+/*}*/
+@media all and (min-width: 400px){
+    .herosection{
+        height: 99vh;
     }
-    .socialmedia a img{
-        width: 17px;
-        height: 17px;
+    #name{
+        font-size: 230px;
+        top: 1200px;
     }
+    /*.socialmedia a img{*/
+    /*    width: 17px;*/
+    /*    height: 17px;*/
+    /*}*/
 }
