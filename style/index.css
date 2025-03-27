@@ -1043,6 +1043,11 @@ input:checked + label .desc{
         font-size: 100px;
         top: 400px;
     }
+    .description > div:first-child {
+        font-size: 15px;
+        right: 150px;
+        top: 55px;
+    }
 }
 
 
