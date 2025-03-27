@@ -14,7 +14,7 @@ body{
     /*background: var(--second-color);*/
 }
 header {
-    width: var(--main-width);
+    width: 110%;
     height: 55px;
     background: var(--third-color);
 }
@@ -927,7 +927,7 @@ input:checked + label .desc{
     }
 }
 
-@media all and (max-width: 800px) and (min-width: 500px){
+@media all and (max-width: 800px){
     .myicon{
         width: 65px;
         height: 55px;
@@ -1024,25 +1024,15 @@ input:checked + label .desc{
         letter-spacing: 15px;
     }
 }
-/*@media all and (max-width: 550px){*/
-/*    section{*/
-/*        height: 50vh;*/
-/*    }*/
-/*    .socialmedia a img{*/
-/*        width: 17px;*/
-/*        height: 17px;*/
-/*    }*/
-/*}*/
-@media all and (min-width: 400px){
+
+@media all and (max-width: 400px){
     .herosection{
-        height: 99vh;
+        height: 80vh;
     }
-    #name{
-        font-size: 230px;
-        top: 1200px;
-    }
-    /*.socialmedia a img{*/
-    /*    width: 17px;*/
-    /*    height: 17px;*/
+    /*#name{*/
+    /*    font-size: 290px;*/
+    /*    top: 910px;*/
     /*}*/
+
 }
+
