@@ -231,6 +231,8 @@ span{
     height: 200px;
     background: linear-gradient(120deg, transparent, rgba(115, 114, 114, 0.6), transparent);
     transform: skewX(-40deg);
+    animation: shine 10s infinite linear;
+    animation-direction: normal;
 }
 #name{
     color: #5bdc0b;
@@ -888,6 +890,14 @@ input:checked + label .desc{
     to{
         top: 50px;
         right: 800px;
+    }
+}
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
     }
 }
 @keyframes animate {
