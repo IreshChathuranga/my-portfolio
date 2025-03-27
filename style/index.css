@@ -1035,5 +1035,14 @@ input:checked + label .desc{
         top: 380px;
     }
 }
+@media all and (max-width: 600px){
+    .herosection{
+        height: 89vh;
+    }
+    #name{
+        font-size: 100px;
+        top: 380px;
+    }
+}
 
 
