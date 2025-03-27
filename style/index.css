@@ -1048,6 +1048,13 @@ input:checked + label .desc{
         right: 150px;
         top: 55px;
     }
+    .description>div:nth-child(2){
+        font-size: 20px;
+        top: 75px;
+        right: 10px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
 }
 
 
