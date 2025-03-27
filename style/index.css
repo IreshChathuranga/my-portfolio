@@ -1030,10 +1030,10 @@ input:checked + label .desc{
     .herosection{
         height: 89vh;
     }
-    /*#name{*/
-    /*    font-size: 290px;*/
-    /*    top: 910px;*/
-    /*}*/
-
+    #name{
+        font-size: 100px;
+        top: 380px;
+    }
 }
+
 
