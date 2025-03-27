@@ -1058,6 +1058,10 @@ input:checked + label .desc{
     .words{
         height: 30px;
     }
+    span{
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
 }
 
 
