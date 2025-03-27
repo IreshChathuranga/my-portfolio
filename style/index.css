@@ -1089,8 +1089,9 @@ input:checked + label .desc{
     }
     .p1{
         font-size: 7px;
-        top: 230px;
-        right: 85px;
+        top: 100px;
+        right: 35px;
+        border-radius: 10px;
     }
 }
 
