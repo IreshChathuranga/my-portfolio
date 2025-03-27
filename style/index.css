@@ -5,16 +5,17 @@
     --second-color:#ffffff;
     --third-color:#000000FF;
 }
+html, body {
+    overflow-x: hidden;
+}
 body{
     background: var(--third-color);
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     position: relative;
-    /*background: var(--second-color);*/
 }
 header {
-    width: 110%;
+    width: 100%;
     height: 55px;
     background: var(--third-color);
 }
@@ -1027,7 +1028,7 @@ input:checked + label .desc{
 
 @media all and (max-width: 400px){
     .herosection{
-        height: 80vh;
+        height: 89vh;
     }
     /*#name{*/
     /*    font-size: 290px;*/
