@@ -1055,6 +1055,9 @@ input:checked + label .desc{
         letter-spacing: 2px;
         word-spacing: 3px;
     }
+    .words{
+        height: 30px;
+    }
 }
 
 
