@@ -1062,6 +1062,11 @@ input:checked + label .desc{
         padding-bottom: 10px;
         line-height: 25px;
     }
+    .p1{
+        font-size: 7px;
+        top: 230px;
+        right: 85px;
+    }
 }
 
 
