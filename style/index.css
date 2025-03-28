@@ -1068,7 +1068,17 @@ input:checked + label .desc{
         bottom: 0;
         margin: auto;
     }
-
+    .socialbar{
+        height: 30vh;
+        gap: 10px;
+        top: 0;
+        bottom: 40px;
+        transform: translate(-70px, 0);
+    }
+    .socialmedia a{
+        padding: 10px;
+        height: 10px;
+    }
 }
 @media all and (max-width: 600px){
     .herosection{
