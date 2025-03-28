@@ -1059,6 +1059,11 @@ input:checked + label .desc{
         font-size: 100px;
         top: 380px;
     }
+    .socialmedia a img{
+        width: 15px;
+        height: 15px;
+    }
+
 }
 @media all and (max-width: 600px){
     .herosection{
