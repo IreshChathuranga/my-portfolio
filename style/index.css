@@ -893,6 +893,17 @@ input:checked + label .desc{
     #C1C9D9, #beb7b7);
     filter: blur(40px);
 }
+.circle15{
+    position: absolute;
+    top: 350px;
+    right: 700px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-image: linear-gradient(200deg, #111111, #5a138a, #be206a, #b90e38,
+    #f3759c, #e7c1c1);
+    filter: blur(30px);
+}
 @keyframes texttyping {
     100%{
         left: 100%;
