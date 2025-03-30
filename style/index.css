@@ -967,6 +967,17 @@ input:checked + label .desc{
     gap: 30px;
     overflow: hidden;
 }
+.left-gallerybar>span{
+    width: 245px;
+    height: 320px;
+    border: 1px solid white;
+    border-radius: 30px;
+    animation-name: animate_leftgallerybar;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
