@@ -1028,6 +1028,19 @@ input:checked + label .desc{
     height: 270px;
     border: 1px solid white;
     border-radius: 30px;
+    animation-name: animate_rightgallerybar;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+@keyframes animate_rightgallerybar {
+    0%{
+        transform: translateX(-120%)
+    }
+    100%{
+        transform: translateX(10%)
+    }
 }
 @keyframes animate_leftgallerybar {
     0%{
