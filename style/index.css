@@ -1023,6 +1023,12 @@ input:checked + label .desc{
     gap: 30px;
     overflow: hidden;
 }
+.right-gallerybar>span{
+    width: 200px;
+    height: 270px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
 @keyframes animate_leftgallerybar {
     0%{
         transform: translateX(30%)
