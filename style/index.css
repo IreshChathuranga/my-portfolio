@@ -1123,6 +1123,11 @@ input:checked + label .desc{
         height: 200px;
         gap: 10px;
     }
+    .card{
+        width: 130px;
+        border-radius: .45rem;
+        border-radius: 1rem;
+    }
 }
 
 
