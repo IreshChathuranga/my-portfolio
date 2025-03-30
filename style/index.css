@@ -1154,6 +1154,13 @@ input:checked + label .desc{
         letter-spacing: 2.2px;
         border-radius: 20px;
     }
+    .desc p{
+        top: 20px;
+        font-size: 6px;
+        margin: 4px;
+        padding-left: 5px;
+        border-radius: 7px;
+    }
 }
 
 
