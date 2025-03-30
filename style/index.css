@@ -932,6 +932,9 @@ input:checked + label .desc{
 .gallery div{
     border: 1px solid transparent;
 }
+.gallery-left{
+    position: relative;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
