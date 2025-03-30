@@ -1135,6 +1135,14 @@ input:checked + label .desc{
         bottom: -8px;
         left: -13px;
     }
+    .wrapper>button{
+        bottom: 43px;
+        width: 80px;
+        height: 30px;
+        font-size: 9px;
+        padding-top: 5px;
+        margin-bottom: 30px;
+    }
 }
 
 
