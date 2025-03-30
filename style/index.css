@@ -1085,7 +1085,7 @@ input:checked + label .desc{
 }
 @media all and (max-width: 600px){
     .herosection{
-        height: 89vh;
+        height: 91vh;
     }
     #name{
         font-size: 100px;
@@ -1117,7 +1117,7 @@ input:checked + label .desc{
         border-radius: 10px;
     }
     .wrapper{
-        height: 89vh;
+        height: 91vh;
     }
     .wrapper>h1{
         top: 60px;
@@ -1196,6 +1196,8 @@ input:checked + label .desc{
         top: 30px;
         right:50px;
         filter: blur(20px);
+        animation-duration: 10s;
+        animation-direction: alternate-reverse;
     }
     @keyframes circle2_animate {
         from{
