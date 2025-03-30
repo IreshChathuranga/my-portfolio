@@ -1177,6 +1177,11 @@ input:checked + label .desc{
         height: 15px;
         font-size: 4px;
     }
+    .assignment>h1{
+        top: 0px;
+        font-size: 11px;
+        letter-spacing: 10px;
+    }
 }
 
 
