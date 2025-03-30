@@ -919,6 +919,14 @@ input:checked + label .desc{
     background-image: linear-gradient(90deg, #273673, #1616d2, #247496, #9f2e90);
     filter: blur(10px);
 }
+
+/*////////////////////////////////////////gallery//////////////////////////////////////*/
+.gallery{
+    background: #111111;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
