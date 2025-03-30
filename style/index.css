@@ -783,6 +783,15 @@ input:checked + label .desc{
 .languages-name li span{
     position: relative;
 }
+.languages-name li span::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #111111;
+    border-left: 2px solid  #c9ff00;
+    left: 0;
+}
 @keyframes namescroll {
     100%{
         top: -360px;
