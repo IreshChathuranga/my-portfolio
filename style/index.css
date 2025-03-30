@@ -1136,7 +1136,7 @@ input:checked + label .desc{
         left: -10px;
     }
     .wrapper>button{
-        bottom: 63px;
+        bottom: 85px;
         width: 80px;
         height: 30px;
         font-size: 9px;
@@ -1152,7 +1152,7 @@ input:checked + label .desc{
     .desc h4{
         font-size: 6px;
         letter-spacing: 2.2px;
-        border-radius: 20px;
+        border-radius: 1px;
     }
     .desc p{
         top: 20px;
