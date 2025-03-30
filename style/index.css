@@ -791,6 +791,13 @@ input:checked + label .desc{
     background: #111111;
     border-left: 2px solid  #c9ff00;
     left: 0;
+    animation: texttyping 4.5s steps(6) infinite;
+}
+@keyframes texttyping {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
 }
 @keyframes namescroll {
     100%{
