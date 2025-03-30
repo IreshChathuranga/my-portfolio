@@ -998,6 +998,18 @@ input:checked + label .desc{
     background-size: cover;
     backdrop-filter: blur(40px);
 }
+.blurdiv:hover{
+    backdrop-filter: blur(0);
+}
+.blurdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 320px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
 @keyframes animate_leftgallerybar {
     0%{
         transform: translateX(30%)
