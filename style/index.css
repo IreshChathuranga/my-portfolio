@@ -1224,6 +1224,20 @@ input:checked + label .desc{
             right: 450px;
         }
     }
+    .circle4{
+        width: 120px;
+        height: 120px;
+    }
+    @keyframes circle4_animate {
+        from{
+            top: 350px;
+            right: 500px;
+        }
+        to{
+            top: 200px;
+            right: 330px;
+        }
+    }
     .assignment>h1{
         top: 0px;
         font-size: 11px;
