@@ -1034,6 +1034,15 @@ input:checked + label .desc{
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
 }
+.blurdiv1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 270px;
+    border-radius: 30px;
+    backdrop-filter: blur(20px);
+}
 @keyframes animate_rightgallerybar {
     0%{
         transform: translateX(-120%)
