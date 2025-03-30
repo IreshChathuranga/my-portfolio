@@ -1013,6 +1013,16 @@ input:checked + label .desc{
 .gallery-right{
     position: relative;
 }
+.gallery-right>div{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 600px;
+    height: 272px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
 @keyframes animate_leftgallerybar {
     0%{
         transform: translateX(30%)
