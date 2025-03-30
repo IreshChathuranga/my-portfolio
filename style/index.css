@@ -806,6 +806,18 @@ toolsbar{
     border: 3px solid white;
     background-size: cover;
 }
+.blur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    width: 330px;
+    height: 150px;
+    gap: 30px;
+    background: transparent;
+    backdrop-filter: blur(30px);
+}
 @keyframes texttyping {
     100%{
         left: 100%;
