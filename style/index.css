@@ -835,6 +835,11 @@ toolsbar{
     width: 50px;
     height: 50px;
 }
+.tools img:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
