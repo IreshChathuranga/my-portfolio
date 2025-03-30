@@ -414,19 +414,19 @@ input:checked + label .desc{
     transform: translateY(0) !important;
 }
 .card[for="c1"]{
-    background-image: url("../access/image/image1.jpg");
+    background-image: url("../assets/image/image1.jpg");
 }
 .card[for="c2"]{
-    background-image: url("../access/image/image2.jpg");
+    background-image: url("../assets/image/image2.jpg");
 }
 .card[for="c3"]{
-    background-image: url("../access/image/image3.jpg");
+    background-image: url("../assets/image/image3.jpg");
 }
 .card[for="c4"]{
-    background-image: url("../access/image/image4.jpg");
+    background-image: url("../assets/image/image4.jpg");
 }
 .card[for="c5"]{
-    background-image: url("../access/image/image5.jpg");
+    background-image: url("../assets/image/image5.jpg");
 }
 .circle1{
     position: absolute;
@@ -977,6 +977,19 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
+}
+.left-gallerybar>span:first-child{
+    background-image: url('../assets/image/mypic1.jpg');
+    background-size: cover;
+    backdrop-filter: blur(40px);
+}
+@keyframes animate_leftgallerybar {
+    0%{
+        transform: translateX(30%)
+    }
+    100%{
+        transform: translateX(-120%)
+    }
 }
 @keyframes texttyping {
     100%{
