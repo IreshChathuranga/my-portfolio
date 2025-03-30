@@ -957,6 +957,16 @@ input:checked + label .desc{
     -webkit-text-fill-color: transparent;
     text-fill-color: transparent;
 }
+.gallery-left>div{
+    position: absolute;
+    top: 330px;
+    right: -180px;
+    width: 800px;
+    height: 325px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
