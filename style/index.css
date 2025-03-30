@@ -1117,6 +1117,7 @@ input:checked + label .desc{
         height: 89vh;
     }
     .wrapper>h1{
+        top: 60px;
         font-size: 11px;
         letter-spacing: 10px;
     }
