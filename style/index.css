@@ -882,15 +882,16 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-@keyframes circle13_animate {
-    0%{
-        top: 200px;
-        right: 300px;
-    }
-    100%{
-        top: 500px;
-        right: 100px;
-    }
+.circle14{
+    position: absolute;
+    top: 95px;
+    right: 100px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #111111, #28282a, #797373, #a4a9ad,
+    #C1C9D9, #beb7b7);
+    filter: blur(40px);
 }
 @keyframes texttyping {
     100%{
@@ -1017,6 +1018,16 @@ input:checked + label .desc{
     to{
         top: 100px;
         right: 1100px;
+    }
+}
+@keyframes circle13_animate {
+    0%{
+        top: 200px;
+        right: 300px;
+    }
+    100%{
+        top: 500px;
+        right: 100px;
     }
 }
 @keyframes shine {
