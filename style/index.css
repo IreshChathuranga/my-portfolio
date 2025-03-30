@@ -993,6 +993,11 @@ input:checked + label .desc{
     background-size: cover;
     backdrop-filter: blur(40px);
 }
+.left-gallerybar>span:last-child{
+    background-image: url('../assets/image/mypic5.jpg');
+    background-size: cover;
+    backdrop-filter: blur(40px);
+}
 @keyframes animate_leftgallerybar {
     0%{
         transform: translateX(30%)
