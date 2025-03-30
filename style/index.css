@@ -1113,6 +1113,10 @@ input:checked + label .desc{
         right: 35px;
         border-radius: 10px;
     }
+    .wrapper>h1{
+        font-size: 9px;
+        letter-spacing: 10px;
+    }
 }
 
 
