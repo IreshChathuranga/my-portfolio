@@ -818,6 +818,17 @@ toolsbar{
     background: transparent;
     backdrop-filter: blur(30px);
 }
+.tool-desc{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    font-size: 22px;
+    font-family: Dubai;
+    font-weight: bold;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
