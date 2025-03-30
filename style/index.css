@@ -935,6 +935,15 @@ input:checked + label .desc{
 .gallery-left{
     position: relative;
 }
+.gallery-left h2{
+    color: #9b9595;
+    font-size: 50px;
+    position: absolute;
+    left: 70px;
+    top: 55px;
+    letter-spacing: 20px;
+    font-family: "Baloo Da 2", sans-serif;
+}
 @keyframes texttyping {
     100%{
         left: 100%;
