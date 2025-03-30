@@ -979,6 +979,9 @@ input:checked + label .desc{
         bottom: 40px;
         transform: translate(-70px, 0);
     }
+    .profile{
+        height: 89vh;
+    }
     .description > div:first-child {
         font-size: 30px;
         right: 300px;
