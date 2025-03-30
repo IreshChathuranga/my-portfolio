@@ -1048,7 +1048,7 @@ input:checked + label .desc{
     background-size: cover;
 }
 .right-gallerybar>span:nth-child(2){
-    background-image: url('../assets/image/mypic6.jpg');
+    background-image: url('../assets/image/mypic3.jpg');
     background-size: cover;
 }
 .right-gallerybar>span:nth-child(3){
@@ -1058,6 +1058,9 @@ input:checked + label .desc{
 .right-gallerybar>span:last-child{
     background-image: url('../assets/image/mypic5.jpg');
     background-size: cover;
+}
+.blurdiv1:hover{
+    backdrop-filter: blur(0);
 }
 @keyframes animate_rightgallerybar {
     0%{
