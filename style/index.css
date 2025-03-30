@@ -31,7 +31,7 @@ header {
     width: var(--main-width);
     height: 55px;
     position: fixed;
-    z-index: 2;
+    z-index: 11;
     justify-content: space-between;
     backdrop-filter: blur(5px);
 }
@@ -87,7 +87,7 @@ header {
     height: 30px;
 }
 .socialbar{
-    z-index: 3;
+    z-index: 10;
     height: 55vh;
     display: flex;
     flex-direction: column;
@@ -204,7 +204,7 @@ header {
     overflow: hidden;
     align-items: center;
 }
-span{
+.words>span{
     padding-bottom: 10px;
     display: block;
     line-height: 60px;
@@ -780,6 +780,9 @@ input:checked + label .desc{
     font-family: "Baloo Da 2", sans-serif;
     animation: namescroll 18s steps(4) infinite;
 }
+.languages-name li span{
+    position: relative;
+}
 @keyframes namescroll {
     100%{
         top: -360px;
@@ -1106,7 +1109,7 @@ input:checked + label .desc{
     .words{
         height: 30px;
     }
-    span{
+    .words>span{
         padding-bottom: 10px;
         line-height: 25px;
     }
