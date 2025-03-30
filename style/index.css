@@ -1010,6 +1010,9 @@ input:checked + label .desc{
     border-radius: 30px;
     backdrop-filter: blur(10px);
 }
+.gallery-right{
+    position: relative;
+}
 @keyframes animate_leftgallerybar {
     0%{
         transform: translateX(30%)
