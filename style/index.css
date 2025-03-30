@@ -1209,6 +1209,21 @@ input:checked + label .desc{
             right: 250px;
         }
     }
+    .circle3{
+        right: 180px;
+        width: 100px;
+        height: 100px;
+        background-image: linear-gradient(200deg, #111111, #21214f, #1f4f4f, #54174a,
+        #91173c, #ea0ac5);
+    }
+    @keyframes circle3_animate {
+        from{
+            top: 250px;
+        }
+        to{
+            right: 450px;
+        }
+    }
     .assignment>h1{
         top: 0px;
         font-size: 11px;
