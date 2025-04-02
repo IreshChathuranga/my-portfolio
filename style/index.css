@@ -1202,6 +1202,12 @@ input:checked + label .desc{
     font-size: 130px;
     font-family: Dubai;
 }
+.contact>div>div>h1:first-child{
+    word-spacing: 20px;
+    color: transparent;
+    position: relative;
+    -webkit-text-stroke: 1.5px #9d9d9b;
+}
 @keyframes increase_scale {
     from{
         transform: scale(1);
