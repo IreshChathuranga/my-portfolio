@@ -1198,6 +1198,10 @@ input:checked + label .desc{
     width: 650px;
     height: 500px;
 }
+.contact h1{
+    font-size: 130px;
+    font-family: Dubai;
+}
 @keyframes increase_scale {
     from{
         transform: scale(1);
