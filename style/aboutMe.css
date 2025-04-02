@@ -22,3 +22,8 @@ body>section:first-child{
     background:  var(--third-color);
     position: relative;
 }
+header {
+    width: var(--main-width);
+    height: 55px;
+    background: var(--third-color);
+}

@@ -15,7 +15,7 @@ body{
     position: relative;
 }
 header {
-    width: 100%;
+    width: var(--main-width);
     height: 55px;
     background: var(--third-color);
 }
