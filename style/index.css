@@ -1114,7 +1114,7 @@ input:checked + label .desc{
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
-.contact>div:nth-child(4) {
+.contact>div:nth-child(4){
     position: absolute;
     right: 0px;
     bottom: 0;
@@ -1122,6 +1122,11 @@ input:checked + label .desc{
     width: 230px;
     height: 500px;
     background-color: #292b36;
+    animation-name: increase_scale;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 @keyframes increase_scale {
     from{
