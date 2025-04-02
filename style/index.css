@@ -1247,6 +1247,19 @@ input:checked + label .desc{
     backdrop-filter: blur(10px);
     position: relative;
 }
+.contact-image>div>div{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    border-radius: 100%;
+    background-image:  url("../assets/image/mypic1.jpg");
+    background-size: cover;
+}
 @keyframes colorchange_animate {
     from{
         color: transparent;
