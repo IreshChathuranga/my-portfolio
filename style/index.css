@@ -1114,6 +1114,15 @@ input:checked + label .desc{
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
+.contact>div:nth-child(4) {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    border-top-left-radius: 100%;
+    width: 230px;
+    height: 500px;
+    background-color: #292b36;
+}
 @keyframes increase_scale {
     from{
         transform: scale(1);
