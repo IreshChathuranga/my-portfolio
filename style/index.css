@@ -1181,6 +1181,11 @@ input:checked + label .desc{
     width: 250px;
     height: 280px;
     background-color: #4c4f5e;
+    animation-name: increase_scale;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
 }
 @keyframes increase_scale {
     from{
