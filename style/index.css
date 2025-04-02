@@ -1220,6 +1220,18 @@ input:checked + label .desc{
     -webkit-text-stroke: 0px #9d9d9b;
     border-right: 2px solid #c9ff00;
     overflow: hidden;
+    animation: typingcursor_animate 6s linear infinite;
+}
+@keyframes typingcursor_animate {
+    0%,10%,100%{
+        width: 0;
+    }
+    50% {
+        width: 50%;
+    }
+    90% {
+        width: 100%;
+    }
 }
 @keyframes increase_scale {
     from{
