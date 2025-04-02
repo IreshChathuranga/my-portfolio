@@ -1077,6 +1077,20 @@ input:checked + label .desc{
     border-top-right-radius: 100%;
     width: 300px;
     height: 250px;
+    background-color: #292b36;
+    animation-name: increase_scale;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes increase_scale {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
 @keyframes animate_rightgallerybar {
     0%{
