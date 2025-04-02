@@ -508,7 +508,7 @@ input:checked + label .desc{
 .assignment{
     background: #111111;
     width: 100%;
-    height: var(--main-height);
+    height: 100vh;
     position: relative;
     display: flex;
     justify-content: center;
@@ -656,7 +656,7 @@ input:checked + label .desc{
 .skill{
     background: #111111;
     width: 100%;
-    height: var(--main-height);
+    height: 100vh;
     overflow: hidden;
     position: relative;
 }
@@ -706,7 +706,7 @@ input:checked + label .desc{
 .languages{
     position: relative;
     width: 100%;
-    height: var(--main-height);
+    height: 100vh;
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
 }
@@ -924,7 +924,7 @@ input:checked + label .desc{
 .gallery{
     background: #111111;
     width: 100%;
-    height: var(--main-height);
+    height: 100vh;
     position: relative;
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
@@ -1067,7 +1067,7 @@ input:checked + label .desc{
 .contact{
     background: #161821;
     width: 100%;
-    height: var(--main-height);
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
