@@ -928,6 +928,7 @@ input:checked + label .desc{
     position: relative;
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
+    overflow: hidden;
 }
 .gallery div{
     border: 1px solid transparent;
@@ -1061,6 +1062,14 @@ input:checked + label .desc{
 }
 .blurdiv1:hover{
     backdrop-filter: blur(0);
+}
+/*////////////////////////////////////////contact//////////////////////////////////////*/
+.contact{
+    background: #161821;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 @keyframes animate_rightgallerybar {
     0%{
