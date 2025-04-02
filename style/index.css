@@ -1240,6 +1240,13 @@ input:checked + label .desc{
     background-image: url("../assets/image/mypic1.jpg");
     background-size: cover;
 }
+.contact-image>div{
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
 @keyframes colorchange_animate {
     from{
         color: transparent;
