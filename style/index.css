@@ -1194,6 +1194,10 @@ input:checked + label .desc{
     display: flex;
     justify-content: space-around;
 }
+.contact>div>div:first-child{
+    width: 650px;
+    height: 500px;
+}
 @keyframes increase_scale {
     from{
         transform: scale(1);
