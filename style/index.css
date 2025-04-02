@@ -1208,6 +1208,19 @@ input:checked + label .desc{
     position: relative;
     -webkit-text-stroke: 1.5px #9d9d9b;
 }
+.contact>div>div>h1:first-child::before{
+    width: 20%;
+    height: 100%;
+    content: "Let's work";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #c9ff00;
+    white-space: nowrap;
+    -webkit-text-stroke: 0px #9d9d9b;
+    border-right: 2px solid #c9ff00;
+    overflow: hidden;
+}
 @keyframes increase_scale {
     from{
         transform: scale(1);
