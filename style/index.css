@@ -1230,6 +1230,14 @@ input:checked + label .desc{
     animation: colorchange_animate 6s infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes colorchange_animate {
+    from{
+        color: transparent;
+    }
+    to{
+        color: #9d9d9b;
+    }
+}
 @keyframes typingcursor_animate {
     0%,10%,100%{
         width: 0;
