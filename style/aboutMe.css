@@ -420,3 +420,15 @@ header {
     backdrop-filter: blur(70px);
     background-image: linear-gradient(220deg, rgba(17, 17, 17, 0.18), rgba(17, 17, 17, 0.34), rgba(17, 17, 17, 0.56), rgba(209, 0, 49, 0.3));
 }
+.card2>div:first-child{
+    align-self: center;
+    z-index: 1;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 225px;
+    height: 230px;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom right;
+}
