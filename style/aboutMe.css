@@ -159,3 +159,6 @@ header {
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
 }
+.aboutme>div{
+    border: 1px solid transparent;
+}
