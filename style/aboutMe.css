@@ -247,3 +247,16 @@ header {
 .picture{
     position: relative;
 }
+.outer-div{
+    position: absolute;
+    width: 400px;
+    height: 530px;
+    left: 0;
+    right:10px;
+    bottom: 0;
+    top: 100px;
+    margin: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(255, 255, 255, 0.06);
+}
