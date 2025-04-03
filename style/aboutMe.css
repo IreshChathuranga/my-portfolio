@@ -322,3 +322,10 @@ header {
 .education-grid>div{
     border: 1px solid transparent;
 }
+.education-grid>div:first-child{
+    width: 100%;
+    height: 16vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
