@@ -340,3 +340,9 @@ header {
     letter-spacing: 25px;
     font-family: Dubai;
 }
+.bottom-div{
+    width: 100%;
+    height: 82vh;
+    display: grid;
+    grid-template-columns:repeat(1, 2fr) ;
+}
