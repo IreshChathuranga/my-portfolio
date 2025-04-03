@@ -259,4 +259,17 @@ header {
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     background: rgba(255, 255, 255, 0.06);
+    animation-name: increase_scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes increase_scale {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.008);
+    }
 }
