@@ -382,3 +382,7 @@ header {
     transition: transform 0.3s ease-in-out;
     transform-origin: bottom right;
 }
+.card1>div:first-child:hover{
+    transform: scale(2);
+    background: rgba(255, 255, 255, 0.06);
+}
