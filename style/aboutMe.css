@@ -291,3 +291,22 @@ header {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
+.inside-div{
+    position: absolute;
+    width: 400px;
+    height: 530px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    left: 0;
+    right: -40px;
+    bottom: 0;
+    top: -40px;
+    margin: auto;
+    background-image: url("../assets/image/mypic8.jpg");
+    background-size: cover;
+    animation-name: increase_scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
