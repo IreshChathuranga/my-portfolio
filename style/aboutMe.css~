@@ -131,13 +131,3 @@ header {
     transform: scale(1.1);
     text-shadow: 0px 0px 10px #ffffff;
 }
-#instergram:hover{
-    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
-}
-#instergramimg{
-    transition: 0.3s ease;
-}
-#instergramimg:hover{
-    transform: scale(1.1);/*hover krama img eka loku wela penima*/
-    text-shadow: 0px 0px 10px #ffffff;
-}
