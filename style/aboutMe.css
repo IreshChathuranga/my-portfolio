@@ -174,3 +174,12 @@ header {
     top: 80px;
     left: 150px;
 }
+.left-side>div:nth-child(2){
+    color: #ffffff;
+    font-family: Dubai;
+    font-size: 70px;
+    font-weight: bold;
+    position: absolute;
+    top: 190px;
+    right: 120px;
+}
