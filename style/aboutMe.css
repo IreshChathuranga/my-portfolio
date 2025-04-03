@@ -74,3 +74,9 @@ header {
     left: 0;
     transition: 0.7s ease;
 }
+.navmenu li a:hover:before{
+    width: 100%;
+}
+.social-section{
+    position: relative;
+}
