@@ -244,3 +244,6 @@ header {
         left: 120%;
     }
 }
+.picture{
+    position: relative;
+}
