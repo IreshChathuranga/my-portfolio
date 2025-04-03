@@ -166,3 +166,11 @@ header {
     width: 750px;
     position: relative;
 }
+.left-side>div:first-child{
+    color: #5bdc0b;
+    font-family: "Monoton", sans-serif;
+    font-size: 120px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
