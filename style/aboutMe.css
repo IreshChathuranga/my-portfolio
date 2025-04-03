@@ -310,3 +310,8 @@ header {
     animation-direction: alternate;
     animation-timing-function: ease-in-out;
 }
+/*//////////////////////////////education//////////////////////////////////////////////*/
+.education{
+    background: black;
+    position: relative;
+}
