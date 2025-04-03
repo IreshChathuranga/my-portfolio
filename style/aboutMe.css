@@ -80,3 +80,7 @@ header {
 .social-section{
     position: relative;
 }
+.socialmedia a img{
+    width: 30px;
+    height: 30px;
+}
