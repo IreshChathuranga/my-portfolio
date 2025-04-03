@@ -370,3 +370,15 @@ header {
 .card1:hover{
     transform: scale(1.02);
 }
+.card1>div:first-child{
+    z-index: 1;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 225px;
+    height: 230px;
+    align-self: center;
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: bottom right;
+}
