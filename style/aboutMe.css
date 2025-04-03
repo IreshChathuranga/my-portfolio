@@ -183,3 +183,35 @@ header {
     top: 190px;
     right: 120px;
 }
+.left-side>div:nth-child(3){
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.14);
+    border-radius: 50px;
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(130deg,
+    #f507e1, #7e0fb6, #0a42b0, #767770,
+    #a89da7, #c5c1c7, #e2e8ee, #f507e1,
+    #ff00ea,#7e0fb6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-family: "Baloo", sans-serif;
+    font-size: 28px;
+    padding-left: 20px;
+    padding-right: 16px;
+    letter-spacing: 2px;
+    word-spacing: 8px;
+    font-weight: bold;
+    background-size: 400% 100%;
+    overflow: hidden;
+}
