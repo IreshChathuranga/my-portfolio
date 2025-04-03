@@ -162,3 +162,7 @@ header {
 .aboutme>div{
     border: 1px solid transparent;
 }
+.left-side{
+    width: 750px;
+    position: relative;
+}
