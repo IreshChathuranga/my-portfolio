@@ -273,3 +273,21 @@ header {
         transform: scale(1.008);
     }
 }
+.outer-div>div{
+    position: absolute;
+    width: 400px;
+    height: 530px;
+    left: 0;
+    right:-30px;
+    bottom: 0;
+    top: -30px;
+    margin: auto;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(255, 255, 255, 0.09);
+    animation-name: increase_scale;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
