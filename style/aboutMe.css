@@ -364,3 +364,9 @@ header {
     overflow: hidden;
     border-radius: 40px;
 }
+.card1{
+    transition: transform 1.5s ease-in-out;
+}
+.card1:hover{
+    transform: scale(1.02);
+}
