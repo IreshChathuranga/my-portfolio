@@ -329,3 +329,14 @@ header {
     display: flex;
     justify-content: center;
 }
+.education-grid>div:first-child>h1{
+    text-transform: uppercase;
+    position:absolute;
+    justify-self: center;
+    align-self: end;
+    color: #c7c3c3;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 25px;
+    font-family: Dubai;
+}
