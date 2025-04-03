@@ -319,3 +319,6 @@ header {
     display: grid;
     grid-template-columns:repeat(1, 2fr) ;
 }
+.education-grid>div{
+    border: 1px solid transparent;
+}
