@@ -608,6 +608,17 @@ item:hover::before {
     position: relative;
     height: 215px;
 }
+.item>div:first-child>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+}
 .getmore{
     position: relative;
     align-self: end;
