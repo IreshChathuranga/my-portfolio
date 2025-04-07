@@ -647,6 +647,21 @@ item:hover::before {
     height: 50px;
     position: relative;
 }
+.item-btn{
+    position: absolute;
+    top: 0;
+    left: 13px;
+    bottom: 13px;
+    margin: auto;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid #71fd00;
+    font-family:  Dubai , "SansSerif";
+    font-size: 15px;
+    color: white;
+}
 .getmore{
     position: relative;
     align-self: end;
