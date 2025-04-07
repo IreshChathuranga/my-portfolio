@@ -631,6 +631,18 @@ item:hover::before {
     font-size: 30px;
     color: white;
 }
+.item>div:nth-child(2)>p1{
+    position: absolute;
+    left: 13px;
+    bottom: 2px;
+    font-family: Dubai , "SansSerif";
+    font-size: 13px;
+    font-weight: bold;
+    color: #888585;
+    width: 224px;
+    height: 30px;
+    border-bottom: 2px solid #71fd00;
+}
 .getmore{
     position: relative;
     align-self: end;
