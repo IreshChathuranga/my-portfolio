@@ -662,6 +662,12 @@ item:hover::before {
     font-size: 15px;
     color: white;
 }
+.item-btn:hover{
+    border: none;
+    background-color: white;
+    color: #000000;
+    font-weight: bold;
+}
 .getmore{
     position: relative;
     align-self: end;
