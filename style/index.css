@@ -548,7 +548,6 @@ input:checked + label .desc{
     position: absolute;
     width: 250px;
     height: 350px;
-    background-color: rgba(62, 68, 80, 0.28);
     background: linear-gradient(0deg, rgba(61, 67, 80, 0.44) 0%, rgba(52, 4, 94, 0.28) 100%);
     box-shadow: 0 7px 20px 5px #00000088;
     backdrop-filter: blur(10px);
@@ -563,6 +562,18 @@ input:checked + label .desc{
     display: grid;
     grid-template-columns:repeat(1, 3fr) ;
     overflow: hidden;
+}
+.item::before{
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 185px;
+    height: 400px;
+    background: linear-gradient(120deg, transparent, rgba(115, 114, 114, 0.27), transparent);
+    transform: skewX(40deg);
+    transition: left 1s ease-in-out;
 }
 .getmore{
     position: relative;
