@@ -619,6 +619,10 @@ item:hover::before {
     height: 180px;
     border-radius: 8px;
 }
+.item>div:nth-child(2){
+    position: relative;
+    height: 90px;
+}
 .getmore{
     position: relative;
     align-self: end;
