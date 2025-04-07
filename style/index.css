@@ -537,6 +537,12 @@ input:checked + label .desc{
     align-items: center;
     align-self: center;
 }
+.silder{
+    z-index: 4;
+    height: 420px;
+    width: 100%;
+    position: relative;
+}
 .getmore{
     position: relative;
     align-self: end;
