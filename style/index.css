@@ -683,6 +683,10 @@ item:hover::before {
     border-radius: 100%;
     font-size: medium;
 }
+#next{
+    left: unset;
+    right: 100px;
+}
 .getmore{
     position: relative;
     align-self: end;
