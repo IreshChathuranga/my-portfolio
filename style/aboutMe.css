@@ -528,3 +528,14 @@ header {
     transform: skewX(-40deg);
     transition: left 3s ease-in-out;
 }
+.button-div>button:hover::before {
+    left: 170%;
+}
+.button-div>button:hover{
+    transform: scale(1.07);
+    transition: left 20s ease-in-out;
+}
+.button-div>button:not(:hover)::before {
+    left: -100px;
+    transition: left 0.8s ease-in-out;
+}
