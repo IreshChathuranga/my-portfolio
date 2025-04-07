@@ -347,7 +347,7 @@ header {
     grid-template-columns:repeat(1, 2fr) ;
 }
 .bottom-div>div{
-    border: 1px solid transparent;
+    border: 1px solid white;
 }
 .card-div{
     display: flex;
@@ -364,29 +364,30 @@ header {
     overflow: hidden;
     border-radius: 40px;
 }
-.card1{
+.card-div>div::before{
+    z-index: 0;
+    content: "";
+    position: absolute;
+    top: 370px;
+    width: 250px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.07);
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    transform-origin: bottom center; /* Important for bottom to top effect */
+    transition: transform 0.6s ease-in-out;
+}
+.card-div>div:hover::before{
+    transform: scale(2);
+}
+.card-div>div{
+    position: relative;
     transition: transform 1.5s ease-in-out;
 }
-.card1:hover{
+.card-div>div:hover{
     transform: scale(1.02);
 }
 .card1>div:first-child{
-    z-index: 1;
-    position: absolute;
-    bottom: -2px;
-    right: -2px;
-    width: 225px;
-    height: 230px;
-    align-self: center;
-    background: transparent;
-    transition: transform 0.3s ease-in-out;
-    transform-origin: bottom right;
-}
-.card1>div:first-child:hover{
-    transform: scale(2);
-    background: rgba(255, 255, 255, 0.06);
-}
-.card1>div:nth-child(2){
     position: absolute;
     width: 140px;
     height: 140px;
@@ -399,7 +400,8 @@ header {
     top: 10px;
     border-radius: 45px;
 }
-.card1>div:nth-child(3){
+.card1>div:nth-child(2){
+    z-index: 3;
     width: 180px;
     height: 200px;
     padding:10px;
@@ -413,24 +415,12 @@ header {
     right: 0;
     margin: auto;
     bottom: 10px;
-    font-size: 22px;
+    font-size: 21px;
     font-family: Dubai;
     color: #c7c1c1;
     font-weight: bold;
     backdrop-filter: blur(70px);
     background-image: linear-gradient(220deg, rgba(17, 17, 17, 0.18), rgba(17, 17, 17, 0.34), rgba(17, 17, 17, 0.56), rgba(209, 0, 49, 0.3));
-}
-.card2>div:first-child{
-    align-self: center;
-    z-index: 1;
-    position: absolute;
-    bottom: -2px;
-    right: -2px;
-    width: 225px;
-    height: 230px;
-    background: transparent;
-    transition: transform 0.3s ease-in-out;
-    transform-origin: bottom right;
 }
 .card2{
     transition: transform 1.5s ease-in-out;
@@ -438,11 +428,7 @@ header {
 .card2:hover{
     transform: scale(1.02);
 }
-.card2>div:first-child:hover{
-    transform: scale(2);
-    background: rgba(255, 255, 255, 0.06);
-}
-.card2>div:nth-child(2){
+.card2>div:first-child{
     position: absolute;
     width: 140px;
     height: 140px;
@@ -455,7 +441,7 @@ header {
     top: 10px;
     border-radius: 45px;
 }
-.card2>div:nth-child(3){
+.card2>div:nth-child(2){
     width: 180px;
     height: 200px;
     padding:10px;
