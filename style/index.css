@@ -738,6 +738,17 @@ item:hover::before {
     transform: skewX(-40deg);
     transition: left 3s ease-in-out;
 }
+.getmore:hover::before {
+    left: 170%;
+}
+.getmore:hover{
+    transform: scale(1.07);
+    transition: left 20s ease-in-out;
+}
+.getmore:not(:hover)::before {
+    left: -100px;
+    transition: left 0.8s ease-in-out;
+}
 .circle6 {
     z-index: 1;
     position: absolute;
