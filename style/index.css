@@ -587,6 +587,20 @@ input:checked + label .desc{
     transform: skewX(40deg);
     transition: left 1s ease-in-out;
 }
+item:hover::before {
+    left: 170%;
+}
+.item:hover::after {
+    left: 170%;
+}
+.item:not(:hover)::before {
+    left: -330px;
+    transition: left 0.8s ease-in-out;
+}
+.item:not(:hover)::after {
+    left: -330px;
+    transition: left 0.8s ease-in-out;
+}
 .getmore{
     position: relative;
     align-self: end;
