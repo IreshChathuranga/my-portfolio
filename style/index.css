@@ -575,6 +575,18 @@ input:checked + label .desc{
     transform: skewX(40deg);
     transition: left 1s ease-in-out;
 }
+.item::after {
+    z-index: 2;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -85%;
+    width: 120px;
+    height: 400px;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+    transform: skewX(40deg);
+    transition: left 1s ease-in-out;
+}
 .getmore{
     position: relative;
     align-self: end;
