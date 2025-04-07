@@ -543,6 +543,27 @@ input:checked + label .desc{
     width: 100%;
     position: relative;
 }
+.item{
+    z-index: 4;
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    background-color: rgba(62, 68, 80, 0.28);
+    background: linear-gradient(0deg, rgba(61, 67, 80, 0.44) 0%, rgba(52, 4, 94, 0.28) 100%);
+    box-shadow: 0 7px 20px 5px #00000088;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    transition: 0.5s;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(1, 3fr) ;
+    overflow: hidden;
+}
 .getmore{
     position: relative;
     align-self: end;
