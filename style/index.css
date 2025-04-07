@@ -601,6 +601,13 @@ item:hover::before {
     left: -330px;
     transition: left 0.8s ease-in-out;
 }
+.item>div{
+    border: 1px solid transparent;
+}
+.item>div:first-child{
+    position: relative;
+    height: 215px;
+}
 .getmore{
     position: relative;
     align-self: end;
