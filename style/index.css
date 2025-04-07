@@ -643,6 +643,10 @@ item:hover::before {
     height: 30px;
     border-bottom: 2px solid #71fd00;
 }
+.item>div:nth-child(3){
+    height: 50px;
+    position: relative;
+}
 .getmore{
     position: relative;
     align-self: end;
