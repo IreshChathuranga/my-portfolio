@@ -163,6 +163,17 @@ header {
 .profile>div{
     border: 1px solid transparent;
 }
+.mainpic{
+    position: relative;
+}
+.mypic{
+    z-index: 0;
+    width: 740px;
+    height: 700px;
+    position: absolute;
+    left: 8px;
+    bottom: 435px;
+}
 .description > div:first-child {
     width: fit-content;
     font-size: 40px;
@@ -229,12 +240,13 @@ header {
     animation-direction: normal;
 }
 #name{
+    z-index: 1;
     color: #5bdc0b;
     font-family: "Monoton", sans-serif;
     font-size: 120px;
     white-space: nowrap;
     position: absolute;
-    top: 500px;
+    top: 490px;
     letter-spacing: 20px;
     animation: scrollText 50s linear infinite;
     word-spacing: 70px;
