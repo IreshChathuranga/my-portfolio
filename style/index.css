@@ -285,6 +285,17 @@ header {
     z-index: 3;
     overflow: hidden;
 }
+.get::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100px;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.64), transparent);
+    transform: skewX(-40deg);
+    transition: left 3s ease-in-out;
+}
 .card{
     width: 80px;
     border-radius: .75rem;
