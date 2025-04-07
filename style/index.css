@@ -668,6 +668,21 @@ item:hover::before {
     color: #000000;
     font-weight: bold;
 }
+#next , #prev{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    color: #000000;
+    background: rgba(255, 255, 255, 0.22);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 100px;
+    font-weight: bold;
+    border: 1px solid #4c0c54;
+    border-radius: 100%;
+    font-size: medium;
+}
 .getmore{
     position: relative;
     align-self: end;
