@@ -168,11 +168,11 @@ header {
 }
 .mypic{
     z-index: 0;
-    width: 740px;
-    height: 700px;
+    width: 650px;
+    height: 755px;
     position: absolute;
-    left: 8px;
-    bottom: 435px;
+    left: 3px;
+    bottom: 390px;
 }
 .description > div:first-child {
     width: fit-content;
@@ -1831,7 +1831,7 @@ item:hover::before {
         height: 10px;
     }
 }
-@media all and (max-width: 600px){
+@media all and (max-width: 425px){
     .herosection{
         height: 91vh;
     }
