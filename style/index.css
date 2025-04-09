@@ -1839,6 +1839,15 @@ item:hover::before {
         font-size: 100px;
         top: 420px;
     }
+    .mypic{
+        width: 450px;
+        height: 550px;
+        left: -6px;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin:auto;
+    }
     .description > div:first-child {
         font-size: 15px;
         right: 150px;
