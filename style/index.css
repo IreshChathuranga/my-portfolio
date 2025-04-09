@@ -1832,9 +1832,6 @@ item:hover::before {
     }
 }
 @media all and (max-width: 425px){
-    header {
-        height: 0px;
-    }
     .herosection{
         height: 91vh;
     }
@@ -1877,6 +1874,7 @@ item:hover::before {
         border-radius: 10px;
     }
     .wrapper{
+        top:  -15px;
         height: 91vh;
     }
     .wrapper>h1{
