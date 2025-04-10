@@ -227,3 +227,19 @@ section{
 .from{
     position: relative;
 }
+.lable{
+    color: #f6ffdc;
+    position: absolute;
+    width: 700px;
+    height: 30px;
+    top: 30px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    font-size: 25px;
+    padding-top: 20px;
+    border-top: 2px solid #c9ff00;
+    font-family: "Baloo Da 2", sans-serif;
+    font-weight: bold;
+    word-spacing: 5px;
+}
