@@ -5,83 +5,109 @@
   <title>Contact</title>
 </head>
 <body>
-<!--// Contact Page //-->
-  <!--    page header-->
-  <header>
-    <!--            navigation bar-->
-    <div>
-      <nav>
-        <a href="index.html" target="">Home</a>
-        <a href="aboutMe.html" target="_parent">About Me</a>
-        <a href="" target="_parent">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-<!--  / form section-->
-      <section>
-        <div>
-    <!--      up-->
-          <p>LET'S START A PROJECT TOGEDER</p>
-    <!--      down-->
-          <div>
-    <!--        left side-->
-            <div>
-              <div>
-                  <ol>
-                      <div>
-                          <li>What is your name?</li>
-                          <input type="text" placeholder="Iresh Chathuranga*">
-                      </div>
-                      <div>
-                          <li>What is your email?</li>
-                          <input type="text" placeholder="ireshchathuranga@gmail.com">
-                      </div>
-                      <div>
-                          <li>What service are you looking for?</li>
-                          <input type="text" placeholder="Web designer\Web development...">
-                      </div>
-                      <div>
-                          <li>Your massage</li>
-                          <input type="text" placeholder="Iresh,can you help me with...*">
-                      </div>
-                  </ol>
-                  <button><b>send it</b></button>
-              </div>
+    <section>
+        <div class="circle11"></div>
+        <div class="circle12"></div>
+        <div class="circle13"></div>
+        <div class="circle14"></div>
+        <div class="circle15"></div>
+        <div class="circle16"></div>
+        <div class="circle17"></div>
+        <div class="circle18"></div>
+        <div class="circle19"></div>
+        <div class="circle20"></div>
+        <div class="circle21"></div>
+        <div class="circle22"></div>
+        <header>
+            <!--            navigation bar-->
+            <!--            <div class="navbar">-->
+            <nav class="nav">
+                <img class="myicon" src="../access/icon/ireshicon.png" alt="logo">
+<!--                <i class="fa-solid fa-bars" style="color: #97fd72;"></i>-->
+                <ul class="navmenu">
+                    <li><a href="index.html" target="">Home</a></li>
+                    <li><a href="index.html#projects" target="_parent">Projects</a></li>
+                    <li><a href="index.html#assignments" target="_parent">Assignments</a></li>
+                    <li><a href="index.html#gallery" target="_parent">Gallery</a></li>
+                    <li><a href="aboutMe.html" target="_parent">About Me</a></li>
+                    <li><a href="#" target="_parent">Contact</a></li>
+                </ul>
+            </nav>
+            <!--            </div>-->
+        </header>
+        <section class="section">
+            <!--            <div class="section">-->
+            <!--            left side-->
+            <div class="socialbar">
+                <div class="socialmedia">
+                    <a id="facebook" href="http://facebook.com/my_profile" target="_blank">
+                        <img id="facebookimg" src="../access/icon/newfacebook.png" alt="facebook">
+                    </a>
+                </div>
+                <div class="socialmedia">
+                    <a id="github" href="http://github.com/IreshChathuranga" target="_blank">
+                        <img id="githubimg" src="../access/icon/git.png" alt="github">
+                    </a>
+                </div>
+                <div class="socialmedia">
+                    <a id="instergram" href="http://instergram.com/my_profile" target="_blank">
+                        <img id="instergramimg" src="../access/icon/inster.png" alt="instergram">
+                    </a>
+                </div>
+                <div class="socialmedia">
+                    <a id="linkedin" href="http://linkedin.com/my_profile" target="_blank">
+                        <img id="linkedinimg" src="../access/icon/link.png" alt="linkedin">
+                    </a>
+                </div>
             </div>
-    <!--          right side-->
-              <div>
-                  <img src="assets/image/WhatsApp%20Image%202025-01-22%20at%2020.05.24_a7ab63e0.png" width="70">
-                  <h6>contact details</h6>
-                  <p>ireshchathuranga@gmail.com</p>
-                  <p>+766778789</p>
-                  <div>
-                      <div>
-                          <a href="http://facebook.com/my_profile" target="_blank">
-                              <img src="assets/icon/icons8-facebook-50.png" alt="facebook" width="30">
-                          </a>
-                      </div>
-                      <div>
-                          <a href="http://github.com/IreshChathuranga" target="_blank" >
-                              <img src="assets/icon/icons8-github-50.png" alt="github" width="30">
-                          </a>
-                      </div>
-                      <div>
-                          <a href="http://instergram.com/my_profile" target="_blank">
-                              <img src="assets/icon/icons8-instagram-50.png" alt="instergram" width="30">
-                          </a>
-                      </div>
-                      <div>
-                          <a href="http://linkedin.com/my_profile" target="_blank">
-                              <img src="assets/icon/icons8-linkedin-48.png" alt="linkedin" width="30">
-                          </a>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </section>
-  </main>
+            <div class="base">
+                <div>
+                    <h1>let's start a <br>project <i id="together">together</i></h1>
+                </div>
+                <div>
+                    <div class="middle-div">
+                        <div class="from-div">
+                            <form action="submit_form.php" method="post" class="from">
+                                <label for="name" class="lable lable1"><i class="number">01</i>    What your name?</label>
+                                <br><br>
+                                <input class="input" type="text" id="name" name="name" required>
+                                <br><br>
+
+                                <label for="email" class="lable lable2"><i class="number">02</i>    What is your email?</label>
+                                <br><br>
+                                <input class="input" type="email" id="email" name="email" required>
+                                <br><br>
+
+                                <label for="message" class="lable lable3"><i class="number">03</i>    What service are you looking for?</label><br>
+                                <br><br>
+                                <textarea class="input" id="message" name="message" rows="1" cols="30"></textarea>
+                                <br><br>
+
+                                <label for="message" class="lable lable4"><i class="number">04</i>    Your massage</label><br>
+                                <br><br>
+                                <textarea class="input" id="message1" name="message1" rows="2" cols="30"></textarea>
+                                <br><br>
+                            </form>
+                        </div>
+                        <div class="my-details">
+                            <div></div>
+                            <div>Contact Dtails</div>
+                            <div>ireshchathuranga63309@gmail.com</div>
+                            <div>+758563998</div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="send">
+                        <div>Send it</div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <!--                <div>-->
+        </section>
+    </section>
 </body>
 </html>
