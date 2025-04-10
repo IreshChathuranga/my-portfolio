@@ -408,4 +408,8 @@ section{
     height: 190px;
     border-radius: 100%;
     border: 1px solid rgba(255, 255, 255, 0.32);
+    animation-name: send_animate;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
