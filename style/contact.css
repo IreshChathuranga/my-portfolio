@@ -256,3 +256,15 @@ section{
 .lable4{
     top: 375px;
 }
+.input{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 700px;
+    height: 30px;
+    top: 90px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    border: none;
+}
