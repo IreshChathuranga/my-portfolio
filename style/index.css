@@ -1842,7 +1842,7 @@ item:hover::before {
     .mypic{
         width: 500px;
         height: 600px;
-        left: -10px;
+        left: -50px;
         right: 0;
         bottom: 0;
         top: 50px;
@@ -1851,11 +1851,11 @@ item:hover::before {
     .description > div:first-child {
         font-size: 15px;
         right: 150px;
-        top: 55px;
+        top: 15px;
     }
     .description>div:nth-child(2){
         font-size: 20px;
-        top: 75px;
+        top: 35px;
         right: 10px;
         letter-spacing: 2px;
         word-spacing: 3px;
@@ -1869,9 +1869,10 @@ item:hover::before {
     }
     .p1{
         font-size: 7px;
-        top: 100px;
+        top: 50px;
         right: 35px;
         border-radius: 10px;
+        box-shadow: none;
     }
     .wrapper{
         top:  -15px;
