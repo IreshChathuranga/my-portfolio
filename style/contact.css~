@@ -153,6 +153,3 @@ section{
     display: grid;
     grid-template-columns:repeat(1, 3fr) ;
 }
-.base>div{
-    border: 1px solid transparent;
-}
