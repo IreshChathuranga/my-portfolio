@@ -1427,7 +1427,7 @@ item:hover::before {
     height: 280px;
     margin-bottom: 0px;
     border-radius: 100%;
-    background-image: url("../assets/image/mypic1.jpg");
+    background-image: url("../assets/image/picture.jpg");
     background-size: cover;
 }
 .contact-image>div{
@@ -1447,7 +1447,7 @@ item:hover::before {
     width: 260px;
     height: 260px;
     border-radius: 100%;
-    background-image:  url("../assets/image/mypic1.jpg");
+    background-image: url("../assets/image/picture.jpg");
     background-size: cover;
 }
 @keyframes colorchange_animate {
