@@ -356,3 +356,13 @@ section{
     justify-content: right;
     align-items: center;
 }
+.send{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
