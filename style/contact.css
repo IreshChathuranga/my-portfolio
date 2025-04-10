@@ -280,3 +280,8 @@ section{
 #message1{
     top: 435px;
 }
+.my-details{
+    width: 400px;
+    height: 580px;
+    position: relative;
+}
