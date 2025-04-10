@@ -182,19 +182,3 @@ section{
     height: 90vh;
     z-index: 2;
 }
-.middle-div{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    width: 1200px;
-    height: 580px;
-    display: flex;
-    border-radius: 40px;
-    background-color: rgba(246, 255, 220, 0.04);
-    box-shadow: 0 7px 20px 5px #00000088;
-    backdrop-filter: blur(20px);
-    z-index: 10;
-}
