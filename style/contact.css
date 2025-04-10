@@ -384,3 +384,9 @@ section{
     font-weight: bold;
     color: white;
 }
+.send>div:nth-child(2){
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+}
