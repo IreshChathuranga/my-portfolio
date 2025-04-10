@@ -332,3 +332,19 @@ section{
     justify-content: center;
     overflow: hidden;
 }
+.my-details>div:nth-child(4){
+    border: 2px solid white;
+    font-size: 16px;
+    color: #afacac;
+    width: 290px;
+    height: 40px;
+    border-radius: 30px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
