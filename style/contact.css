@@ -156,3 +156,10 @@ section{
 .base>div{
     border: 1px solid transparent;
 }
+.base>div:first-child{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 30vh;
+}
