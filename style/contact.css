@@ -302,3 +302,16 @@ section{
     border-radius: 100%;
     box-shadow: 0 7px 20px 5px #00000088;
 }
+.my-details>div:nth-child(2){
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 250px;
+    height: 10px;
+    top: 265px;
+    color: chartreuse;
+    letter-spacing: 3px;
+}
