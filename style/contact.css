@@ -243,3 +243,16 @@ section{
     font-weight: bold;
     word-spacing: 5px;
 }
+.number{
+    font-size: 20px;
+    color: rgba(101, 99, 99, 0.79);
+}
+.lable2{
+    top: 145px;
+}
+.lable3{
+    top: 260px;
+}
+.lable4{
+    top: 375px;
+}
