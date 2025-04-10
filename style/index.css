@@ -275,7 +275,7 @@ header {
     top: 135px;
     height: 400px;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-self: center;
     gap: 30px;
 }
@@ -1874,9 +1874,10 @@ item:hover::before {
         border-radius: 10px;
         box-shadow: none;
     }
+
     .wrapper{
-        top:  -15px;
-        height: 91vh;
+        /*top:  -15px;*/
+        height: 94vh;
     }
     .wrapper>h1{
         top: 60px;
@@ -1884,15 +1885,19 @@ item:hover::before {
         letter-spacing: 10px;
     }
     .container{
-        top: 150px;
+        top: 110px;
         width: 350px;
-        height: 200px;
-        gap: 10px;
+        height: 350px;
+        gap: 30px;
+        display: grid;
+        grid-template-columns:repeat(1, 5fr) ;
     }
     .card{
-        width: 130px;
+        border: 1px solid white;
+        width: 330px;
         border-radius: .45rem;
         border-radius: 1rem;
+        transition: 0.6s cubic-bezier(.28, 0.03, 0, .99);
     }
     .card> .row>.icon{
         width: 18px;
@@ -1900,6 +1905,10 @@ item:hover::before {
         font-size: 9px;
         bottom: -8px;
         left: -10px;
+    }
+    input:checked + label{
+        width: 330px;
+        height: 100px;
     }
     .wrapper>button{
         bottom: 85px;
