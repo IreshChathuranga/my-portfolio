@@ -285,3 +285,7 @@ section{
     height: 580px;
     position: relative;
 }
+.my-details>div{
+    font-weight: bold;
+    font-family: Dubai , "SansSerif";
+}
