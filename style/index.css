@@ -2103,6 +2103,10 @@ item:hover::before {
     .silder{
         height: 320px;
     }
+    .item{
+        width: 180px;
+        height: 300px;
+    }
 }
 
 
