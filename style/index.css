@@ -2238,6 +2238,12 @@ item:hover::before {
         width: 160px;
         height: 80px;
     }
+    .blur{
+        border-radius: 35px;
+        width: 160px;
+        height: 80px;
+        gap: 5px;
+    }
 }
 
 
