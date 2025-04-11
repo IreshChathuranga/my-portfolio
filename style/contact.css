@@ -606,3 +606,21 @@ section{
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 }
+@keyframes circle21_animate {
+    from{
+        top: 900px;
+        right: 700px;
+        width: 80px;
+        height: 80px;
+        background-image: linear-gradient(90deg, #d1ce00, #0fa260, #18a2ec, #dc08d8);
+        filter: blur(60px);
+    }
+    to{
+        top: 1050px;
+        right: 900px;
+        width: 60px;
+        height: 60px;
+        background-image: linear-gradient(90deg, #00d131, #0f8ca2, #b718ec, #ef0b5b);
+        filter: blur(20px);
+    }
+}
