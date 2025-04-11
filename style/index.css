@@ -2192,6 +2192,18 @@ item:hover::before {
         width: 80px;
         height: 80px;
     }
+    #reactimg{
+        width: 80px;
+        height: 80px;
+    }
+    #cssimg{
+        width: 80px;
+        height: 80px;
+    }
+    #phythonimg{
+        width: 80px;
+        height: 80px;
+    }
 }
 
 
