@@ -2232,6 +2232,12 @@ item:hover::before {
     .languages-name li span::after{
         top: 6px;
     }
+    .toolsbar{
+        top: 350px;
+        border-radius: 35px;
+        width: 160px;
+        height: 80px;
+    }
 }
 
 
