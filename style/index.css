@@ -2271,6 +2271,19 @@ item:hover::before {
         width: 330px;
         height: 325px;
     }
+    .left-gallerybar>span{
+        width: 210px;
+        height: 322px;
+        border-radius: 35px;
+    }
+    @keyframes animate_leftgallerybar {
+        0%{
+            transform: translateX(30%)
+        }
+        100%{
+            transform: translateX(-230%)
+        }
+    }
 }
 
 
