@@ -2204,6 +2204,9 @@ item:hover::before {
         width: 80px;
         height: 80px;
     }
+    .languages>div:first-child{
+        transform: skewX(0deg);
+    }
 }
 
 
