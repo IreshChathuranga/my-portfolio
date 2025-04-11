@@ -2171,6 +2171,11 @@ item:hover::before {
         left: unset;
         right: 170px;
     }
+    .getmore{
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
 }
 
 
