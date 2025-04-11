@@ -521,3 +521,13 @@ section{
     #C1C9D9, #494747);
     filter: blur(50px);
 }
+.circle16{
+    position: absolute;
+    top: 530px;
+    right: 400px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #273673, #1616d2, #247496, #9f2e90);
+    filter: blur(10px);
+}
