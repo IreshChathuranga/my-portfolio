@@ -1556,6 +1556,13 @@ item:hover::before {
         border: none;
     }
 }
+.contact>div:nth-child(10)>div:nth-child(2){
+    width: 900px;
+    height: 1px;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 100px;
+}
 @keyframes animate_leftgallerybar {
     0%{
         transform: translateX(30%)
