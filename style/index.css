@@ -2265,6 +2265,12 @@ item:hover::before {
         top: 60px;
         font-size: 70px;
     }
+    .gallery-left>div{
+        top: 210px;
+        right: -170px;
+        width: 330px;
+        height: 325px;
+    }
 }
 
 
