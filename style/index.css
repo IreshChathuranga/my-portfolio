@@ -2212,6 +2212,14 @@ item:hover::before {
         top: 50px;
         left: -20px;
     }
+    .lang-namebar{
+        top: 200px;
+        left: -75px;
+    }
+    .languages-name{
+        height: 50px;
+        line-height: 70px;
+    }
 }
 
 
