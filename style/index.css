@@ -2129,6 +2129,13 @@ item:hover::before {
     .item:not(:hover)::after {
         left: -220px;
     }
+    .item>div{
+        border: 1px solid transparent;
+    }
+    .item>div:first-child{
+        position: relative;
+        height: 180px;
+    }
 }
 
 
