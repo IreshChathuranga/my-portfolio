@@ -2140,6 +2140,17 @@ item:hover::before {
         width: 150px;
         height: 140px;
     }
+    .item>div:nth-child(2){
+        height: 60px;
+    }
+    .item>div:nth-child(2)>h1{
+        font-size: 20px;
+    }
+    .item>div:nth-child(2)>p1{
+        font-size: 9px;
+        width: 148px;
+        height: 20px;
+    }
 }
 
 
