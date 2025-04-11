@@ -1450,6 +1450,18 @@ item:hover::before {
     background-image: url("../assets/image/picture.jpg");
     background-size: cover;
 }
+.contact>div:nth-child(10){
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 380px;
+    margin:auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 @keyframes colorchange_animate {
     from{
         color: transparent;
