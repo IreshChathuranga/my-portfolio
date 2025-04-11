@@ -2151,6 +2151,15 @@ item:hover::before {
         width: 148px;
         height: 20px;
     }
+    .item>div:nth-child(3){
+        height: 40px;
+    }
+    .item-btn{
+        bottom: 9px;
+        width: 60px;
+        height: 20px;
+        font-size: 12px;
+    }
 }
 
 
