@@ -1462,6 +1462,18 @@ item:hover::before {
     justify-content: right;
     align-items: center;
 }
+.contact>div:nth-child(10)>div:first-child{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+}
 @keyframes colorchange_animate {
     from{
         color: transparent;
