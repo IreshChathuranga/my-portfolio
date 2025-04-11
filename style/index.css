@@ -2167,6 +2167,10 @@ item:hover::before {
         left: 170px;
         font-size: x-small;
     }
+    #next{
+        left: unset;
+        right: 170px;
+    }
 }
 
 
