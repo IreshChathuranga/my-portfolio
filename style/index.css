@@ -2244,6 +2244,11 @@ item:hover::before {
         height: 80px;
         gap: 5px;
     }
+    .tool-desc{
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
 }
 
 
