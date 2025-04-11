@@ -2284,6 +2284,14 @@ item:hover::before {
             transform: translateX(-230%)
         }
     }
+    .blurdiv{
+        width: 210px;
+        height: 322px;
+        border-radius: 35px;
+    }
+    .gallery-right{
+        display: none;
+    }
 }
 
 
