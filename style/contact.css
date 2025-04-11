@@ -587,3 +587,13 @@ section{
     background-image: linear-gradient(90deg, #00d1ab, #2a0fa2, #8c18ec, #dc08ab);
     filter: blur(60px);
 }
+.circle20{
+    position: absolute;
+    top: 700px;
+    right: 200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #d10076, #930fa2, #18ec62, #a7dc08);
+    filter: blur(60px);
+}
