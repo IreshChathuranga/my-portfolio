@@ -624,3 +624,13 @@ section{
         filter: blur(20px);
     }
 }
+.circle22{
+    position: absolute;
+    top: 1070px;
+    right: 450px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #d10076, #d20e42, #8d18ec, #2f08dc);
+    filter: blur(10px);
+}
