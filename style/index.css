@@ -1412,6 +1412,17 @@ item:hover::before {
     overflow: hidden;
     animation: typingcursor_animate 6s linear infinite;
 }
+@keyframes typingcursor_animate {
+    0%,10%,100%{
+        width: 0;
+    }
+    50% {
+        width: 50%;
+    }
+    90% {
+        width: 100%;
+    }
+}
 .contact>div>div>h1:nth-child(2){
     position: absolute;
     top: 150px;
@@ -1419,6 +1430,14 @@ item:hover::before {
     -webkit-text-stroke: 1.5px #9d9d9b;
     animation: colorchange_animate 6s infinite;
     animation-timing-function: ease-in-out;
+}
+@keyframes colorchange_animate {
+    from{
+        color: transparent;
+    }
+    to{
+        color: #9d9d9b;
+    }
 }
 .contact-image{
     align-self: center;
@@ -1474,24 +1493,23 @@ item:hover::before {
     text-align: center;
     border: none;
 }
-@keyframes colorchange_animate {
-    from{
-        color: transparent;
-    }
-    to{
-        color: #9d9d9b;
-    }
+.scale-circle>div{
+    position: absolute;
 }
-@keyframes typingcursor_animate {
-    0%,10%,100%{
-        width: 0;
-    }
-    50% {
-        width: 50%;
-    }
-    90% {
-        width: 100%;
-    }
+.scale-circle>div:first-child{
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    background-color: rgba(255, 255, 255, 0.35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-family: Dubai , "SansSerif";
+    font-weight: bold;
+    color: white;
 }
 @keyframes increase_scale {
     from{
