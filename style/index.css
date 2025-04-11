@@ -2136,6 +2136,10 @@ item:hover::before {
         position: relative;
         height: 180px;
     }
+    .item>div:first-child>img{
+        width: 150px;
+        height: 140px;
+    }
 }
 
 
