@@ -239,6 +239,14 @@ header {
     animation: shine 10s infinite linear;
     animation-direction: normal;
 }
+@keyframes shine {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
 #name{
     z-index: 1;
     color: #5bdc0b;
@@ -476,6 +484,18 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes circle1_animate {
+    from{
+        width: 320px;
+        height: 320px;
+        top: 100px;
+    }
+    to{
+        width: 150px;
+        height: 150px;
+        right: 1300px;
+    }
+}
 .circle2{
     position: absolute;
     top: 30px;
@@ -489,6 +509,16 @@ input:checked + label .desc{
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+@keyframes circle2_animate {
+    from{
+        width: 80px;
+        height: 80px;
+    }
+    to{
+        width: 300px;
+        height: 300px;
+    }
 }
 .circle3{
     position: absolute;
@@ -506,6 +536,14 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes circle3_animate {
+    from{
+        top: 250px;
+    }
+    to{
+        right: 970px;
+    }
+}
 .circle4{
     position: absolute;
     top: 350px;
@@ -522,6 +560,16 @@ input:checked + label .desc{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes circle4_animate {
+    from{
+        top: 350px;
+        right: 500px;
+    }
+    to{
+        top: 200px;
+        right: 300px;
+    }
+}
 .circle5{
     position: absolute;
     top: 350px;
@@ -537,6 +585,16 @@ input:checked + label .desc{
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+@keyframes circle5_animate {
+    from{
+        top: 350px;
+        right: 700px;
+    }
+    to{
+        top: 400px;
+        right: 800px;
+    }
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////*/
 .assignment{
@@ -776,6 +834,19 @@ item:hover::before {
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 }
+@keyframes circle6_animate {
+    from{
+        width: 150px;
+        height: 150px;
+        top: 590px;
+    }
+    to{
+        width: 150px;
+        height: 150px;
+        top: 100px;
+        right: 1100px;
+    }
+}
 .circle7 {
     position: absolute;
     bottom: 30px;
@@ -789,6 +860,16 @@ item:hover::before {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+@keyframes circle7_animate {
+    from{
+        width: 80px;
+        height: 80px;
+    }
+    to{
+        width: 200px;
+        height: 200px;
+    }
 }
 .circle8 {
     z-index: 0;
@@ -810,6 +891,20 @@ item:hover::before {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes circle8_animate {
+    0%{
+        top: 350px;
+        right: 700px;
+    }
+    50%{
+        top: 200px;
+        right: 400px;
+    }
+    100%{
+        top: 650px;
+        right: 100px;
+    }
+}
 .circle9 {
     position: absolute;
     top: 350px;
@@ -826,6 +921,16 @@ item:hover::before {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes circle9_animate {
+    from{
+        top: -30px;
+        right: 100px;
+    }
+    to{
+        top: 350px;
+        right: 500px;
+    }
+}
 .circle10 {
     position: absolute;
     top: 350px;
@@ -841,6 +946,16 @@ item:hover::before {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+@keyframes circle10_animate {
+    from{
+        top: 200px;
+        right: 700px;
+    }
+    to{
+        top: 50px;
+        right: 800px;
+    }
 }
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .skill{
@@ -965,6 +1080,11 @@ item:hover::before {
     font-family: "Baloo Da 2", sans-serif;
     animation: namescroll 18s steps(4) infinite;
 }
+@keyframes namescroll {
+    100%{
+        top: -360px;
+    }
+}
 .languages-name li span{
     position: relative;
 }
@@ -977,6 +1097,12 @@ item:hover::before {
     border-left: 2px solid  var(--main-color);
     left: 0;
     animation: texttyping 4.5s steps(6) infinite;
+}
+@keyframes texttyping {
+    100%{
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
 }
 .toolsbar{
     position: absolute;
@@ -1041,6 +1167,15 @@ item:hover::before {
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
 }
+@keyframes circle11_animate {
+    from{
+        top: 300px;
+    }
+    to{
+        top: 100px;
+        right: 1100px;
+    }
+}
 .circle12{
     position: absolute;
     top: 500px;
@@ -1072,6 +1207,16 @@ item:hover::before {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+@keyframes circle13_animate {
+    0%{
+        top: 200px;
+        right: 300px;
+    }
+    100%{
+        top: 500px;
+        right: 100px;
+    }
+}
 .circle14{
     position: absolute;
     top: 95px;
@@ -1098,6 +1243,16 @@ item:hover::before {
     animation-direction: alternate;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+@keyframes circle15_animate {
+    from{
+        top: 150px;
+        right: 730px;
+    }
+    to{
+        top: 80px;
+        right: 800px;
+    }
 }
 .circle16{
     position: absolute;
@@ -1168,6 +1323,14 @@ item:hover::before {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
+}
+@keyframes animate_leftgallerybar {
+    0%{
+        transform: translateX(30%)
+    }
+    100%{
+        transform: translateX(-120%)
+    }
 }
 .left-gallerybar>span:first-child{
     background-image: url('../assets/image/mypic1.jpg');
@@ -1562,169 +1725,6 @@ item:hover::before {
     border-radius: 100%;
     background-color: white;
     margin-right: 100px;
-}
-@keyframes animate_leftgallerybar {
-    0%{
-        transform: translateX(30%)
-    }
-    100%{
-        transform: translateX(-120%)
-    }
-}
-@keyframes texttyping {
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-@keyframes namescroll {
-    100%{
-        top: -360px;
-    }
-}
-@keyframes circle1_animate {
-    from{
-        width: 320px;
-        height: 320px;
-        top: 100px;
-    }
-    to{
-        width: 150px;
-        height: 150px;
-        right: 1300px;
-    }
-}
-@keyframes circle2_animate {
-    from{
-        width: 80px;
-        height: 80px;
-    }
-    to{
-        width: 300px;
-        height: 300px;
-    }
-}
-@keyframes circle3_animate {
-    from{
-        top: 250px;
-    }
-    to{
-        right: 970px;
-    }
-}
-@keyframes circle4_animate {
-    from{
-        top: 350px;
-        right: 500px;
-    }
-    to{
-        top: 200px;
-        right: 300px;
-    }
-}
-@keyframes circle5_animate {
-    from{
-        top: 350px;
-        right: 700px;
-    }
-    to{
-        top: 400px;
-        right: 800px;
-    }
-}
-@keyframes circle6_animate {
-    from{
-        width: 150px;
-        height: 150px;
-        top: 590px;
-    }
-    to{
-        width: 150px;
-        height: 150px;
-        top: 100px;
-        right: 1100px;
-    }
-}
-@keyframes circle7_animate {
-    from{
-        width: 80px;
-        height: 80px;
-    }
-    to{
-        width: 200px;
-        height: 200px;
-    }
-}
-@keyframes circle8_animate {
-    0%{
-        top: 350px;
-        right: 700px;
-    }
-    50%{
-        top: 200px;
-        right: 400px;
-    }
-    100%{
-        top: 650px;
-        right: 100px;
-    }
-}
-@keyframes circle9_animate {
-    from{
-        top: -30px;
-        right: 100px;
-    }
-    to{
-        top: 350px;
-        right: 500px;
-    }
-}
-@keyframes circle10_animate {
-    from{
-        top: 200px;
-        right: 700px;
-    }
-    to{
-        top: 50px;
-        right: 800px;
-    }
-}
-@keyframes circle11_animate {
-    from{
-        top: 300px;
-    }
-    to{
-        top: 100px;
-        right: 1100px;
-    }
-}
-@keyframes circle13_animate {
-    0%{
-        top: 200px;
-        right: 300px;
-    }
-    100%{
-        top: 500px;
-        right: 100px;
-    }
-}
-@keyframes circle15_animate {
-    from{
-        top: 150px;
-        right: 730px;
-    }
-    to{
-        top: 80px;
-        right: 800px;
-    }
-}
-@keyframes shine {
-    0% {
-        left: -100%;
-    }
-    100% {
-        left: 100%;
-    }
 }
 @keyframes animate {
     0% {
