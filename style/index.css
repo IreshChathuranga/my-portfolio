@@ -2117,6 +2117,18 @@ item:hover::before {
         width: 70px;
         height: 310px;
     }
+    item:hover::before {
+        left: 420%;
+    }
+    .item:hover::after {
+        left: 220%;
+    }
+    .item:not(:hover)::before {
+        left: -220px;
+    }
+    .item:not(:hover)::after {
+        left: -220px;
+    }
 }
 
 
