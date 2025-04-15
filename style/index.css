@@ -2315,6 +2315,16 @@ item:hover::before {
         width: 170px;
         height: 130px;
     }
+    .contact>div:nth-child(6){
+        left: 15px;
+        width: 200px;
+        height: 120px;
+    }
+    .contact>div:nth-child(7){
+        left: 150px;
+        width: 200px;
+        height: 110px;
+    }
 }
 
 
