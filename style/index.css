@@ -2335,6 +2335,12 @@ item:hover::before {
         height: 410px;
         flex-direction: column;
     }
+    .contact>div>div:first-child{
+        position: relative;
+        left: 35px;
+        width: 370px;
+        height: 500px;
+    }
 }
 
 
