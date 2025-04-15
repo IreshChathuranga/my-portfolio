@@ -2347,6 +2347,11 @@ item:hover::before {
     .contact>div>div>h1:nth-child(2){
         top: 110px;
     }
+    .contact-image{
+        left: 80px;
+        width: 180px;
+        height: 180px;
+    }
 }
 
 
