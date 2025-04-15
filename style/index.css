@@ -2292,6 +2292,10 @@ item:hover::before {
     .gallery-right{
         display: none;
     }
+    .contact>div:first-child{
+        width: 120px;
+        height: 190px;
+    }
 }
 
 
