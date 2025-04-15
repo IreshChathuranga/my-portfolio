@@ -2377,6 +2377,11 @@ item:hover::before {
         background-image: url("../assets/image/picture.jpg");
         background-size: cover;
     }
+    .contact>div:nth-child(10){
+        height: 300px;
+        top: 330px;
+        justify-content: left;
+    }
 }
 
 
