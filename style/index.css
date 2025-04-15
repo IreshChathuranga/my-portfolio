@@ -2341,6 +2341,12 @@ item:hover::before {
         width: 370px;
         height: 500px;
     }
+    .contact h1{
+        font-size: 75px;
+    }
+    .contact>div>div>h1:nth-child(2){
+        top: 110px;
+    }
 }
 
 
