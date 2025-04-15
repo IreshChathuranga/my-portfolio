@@ -2296,6 +2296,11 @@ item:hover::before {
         width: 120px;
         height: 190px;
     }
+    .contact>div:nth-child(2){
+        left: 25px;
+        width: 200px;
+        height: 140px;
+    }
 }
 
 
