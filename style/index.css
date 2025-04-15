@@ -2382,6 +2382,15 @@ item:hover::before {
         top: 330px;
         justify-content: left;
     }
+    .contact>div:nth-child(10)>div:first-child{
+        width: 130px;
+        height: 130px;
+    }
+    .scale-circle>div:first-child{
+        width: 95px;
+        height: 95px;
+        font-size: 18px;
+    }
 }
 
 
