@@ -2266,6 +2266,20 @@ item:hover::before {
         width: 20px;
         height: 20px;
     }
+    .circle11{
+        width: 80px;
+        height: 80px;
+        right: 300px;
+    }
+    @keyframes circle11_animate {
+        from{
+            top: 300px;
+        }
+        to{
+            top: 100px;
+            right: 200px;
+        }
+    }
     .gallery-left h2{
         font-size: 35px;
         left: 70px;
