@@ -2280,6 +2280,27 @@ item:hover::before {
             right: 200px;
         }
     }
+    .circle12{
+        top: 400px;
+        right: 100px;
+        width: 50px;
+        height: 50px;
+        filter: blur(30px);
+    }
+    .circle13{
+        width: 70px;
+        height: 70px;
+    }
+    @keyframes circle13_animate {
+        0%{
+            top: 200px;
+            right: 300px;
+        }
+        100%{
+            top: 450px;
+            right: 100px;
+        }
+    }
     .gallery-left h2{
         font-size: 35px;
         left: 70px;
