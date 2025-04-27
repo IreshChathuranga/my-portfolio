@@ -2172,6 +2172,21 @@ item:hover::before {
         width: 100px;
         height: 100px;
     }
+    .circle10 {
+        width: 60px;
+        height: 60px;
+        filter: blur(30px);
+    }
+    @keyframes circle10_animate {
+        from{
+            top: 500px;
+            right: 250px;
+        }
+        to{
+            top: 50px;
+            right: 100px;
+        }
+    }
     #javaimg{
         width: 80px;
         height: 80px;
