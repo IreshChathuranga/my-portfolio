@@ -1950,7 +1950,7 @@ item:hover::before {
         height: 120px;
     }
     .wrapper>button{
-        bottom: 0px;
+        bottom: -30px;
         width: 80px;
         height: 30px;
         font-size: 9px;
@@ -2219,7 +2219,7 @@ item:hover::before {
         transform: skewX(0deg);
     }
     .know{
-        font-size:46px;
+        font-size:44px;
         top: 100px;
         left: -20px;
     }
@@ -2474,7 +2474,18 @@ item:hover::before {
     }
 }
 @media all and (max-width: 375px){
-
+    .wrapper>h1{
+        font-size: 9px;
+    }
+    .container{
+        width: 300px;
+    }
+    .card{
+        width: 280px;
+    }
+    input:checked + label{
+        width: 280px;
+    }
 }
 
 
