@@ -2164,6 +2164,14 @@ item:hover::before {
             right: 250px;
         }
     }
+    .circle8 {
+        width: 70px;
+        height: 70px;
+    }
+    .circle9 {
+        width: 100px;
+        height: 100px;
+    }
     #javaimg{
         width: 80px;
         height: 80px;
