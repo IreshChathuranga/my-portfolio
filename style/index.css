@@ -2746,6 +2746,27 @@ item:hover::before {
     .contact>div>div>h1:nth-child(2){
         top: 100px;
     }
+    .contact-image{
+        left: 50px;
+        top: -50px;
+        width: 130px;
+        height: 130px;
+    }
+    .contact-image>div{
+        width: 130px;
+        height: 130px;
+    }
+    .contact-image>div>div{
+        width: 115px;
+        height: 115px;
+    }
+    .contact>div:nth-child(10){
+        left: -40px;
+    }
+    .contact>div:nth-child(10)>div:first-child{
+        width: 115px;
+        height: 115px;
+    }
 }
 
 
