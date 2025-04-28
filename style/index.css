@@ -2735,6 +2735,17 @@ item:hover::before {
         height: 300px;
         border-radius: 30px;
     }
+    .contact>div>div:first-child{
+        left: 35px;
+        width: 290px;
+        height: 500px;
+    }
+    .contact h1{
+        font-size: 55px;
+    }
+    .contact>div>div>h1:nth-child(2){
+        top: 100px;
+    }
 }
 
 
