@@ -2528,6 +2528,23 @@ item:hover::before {
     .silder{
         height: 300px;
     }
+    .item{
+        width: 160px;
+        height: 270px;
+    }
+    .item>div:first-child{
+        height: 160px;
+    }
+    .item>div:first-child>img{
+        width: 130px;
+        height: 120px;
+    }
+    .item>div:nth-child(2){
+        height: 60px;
+    }
+    .item>div:nth-child(2)>p1{
+        width: 130px;
+    }
 }
 
 
