@@ -2670,5 +2670,14 @@ item:hover::before {
         width: 180px;
     }
 }
+@media all and (max-width: 375px){
+    #name{
+        font-size: 97px;
+    }
+    .mypic{
+        width: 465px;
+        height: 565px;
+    }
+}
 
 
