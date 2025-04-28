@@ -2644,6 +2644,19 @@ item:hover::before {
     .contact>div>div>h1:nth-child(2){
         top: 100px;
     }
+    .contact-image{
+        left: 80px;
+        width: 160px;
+        height: 160px;
+    }
+    .contact-image>div{
+        width: 160px;
+        height: 160px;
+    }
+    .contact-image>div>div{
+        width: 145px;
+        height: 145px;
+    }
 }
 
 
