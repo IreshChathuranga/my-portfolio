@@ -2623,6 +2623,27 @@ item:hover::before {
         width: 17px;
         height: 17px;
     }
+    .gallery-left h2{
+        font-size: 30px;
+        left: 60px;
+        top: 30px;
+    }
+    .gallery-left h1{
+        left: 80px;
+        top: 50px;
+        font-size:60px;
+    }
+    .contact>div>div:first-child{
+        left: 35px;
+        width: 350px;
+        height: 500px;
+    }
+    .contact h1{
+        font-size: 60px;
+    }
+    .contact>div>div>h1:nth-child(2){
+        top: 100px;
+    }
 }
 
 
