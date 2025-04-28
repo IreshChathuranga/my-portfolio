@@ -2678,6 +2678,15 @@ item:hover::before {
         width: 465px;
         height: 565px;
     }
+    .wrapper>h1{
+        font-size: 7px;
+    }
+    .container{
+        width: 300px;
+    }
+    .card{
+        width: 280px;
+    }
 }
 
 
