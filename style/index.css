@@ -2708,6 +2708,9 @@ item:hover::before {
         left: unset;
         right: 100px;
     }
+    .languagebar {
+        left: -20px;
+    }
 }
 
 
