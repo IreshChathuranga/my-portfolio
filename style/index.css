@@ -2711,6 +2711,25 @@ item:hover::before {
     .languagebar {
         left: -20px;
     }
+    .gallery-left h2{
+        font-size: 28px;
+        top: 15px;
+    }
+    .gallery-left h1{
+        top: 40px;
+        font-size:50px;
+    }
+    .gallery-left>div{
+        top: 190px;
+        right: -130px;
+        width: 260px;
+        height: 310px;
+    }
+    .left-gallerybar>span{
+        width: 170px;
+        height: 300px;
+        border-radius: 30px;
+    }
 }
 
 
