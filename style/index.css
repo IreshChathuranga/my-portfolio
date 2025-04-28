@@ -2767,6 +2767,14 @@ item:hover::before {
         width: 115px;
         height: 115px;
     }
+    .scale-circle>div:first-child{
+        width: 80px;
+        height: 80px;
+        font-size: 11px;
+    }
+    .contact>div:nth-child(10)>div:nth-child(2){
+        width: 165px;
+    }
 }
 
 
