@@ -2518,6 +2518,16 @@ item:hover::before {
         height: 15px;
         font-size: 4px;
     }
+    .assignment>h1{
+        top: 50px;
+        font-size: 9px;
+    }
+    .mainslider{
+        height: 200px;
+    }
+    .silder{
+        height: 300px;
+    }
 }
 
 
