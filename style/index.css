@@ -2558,6 +2558,34 @@ item:hover::before {
         height: 25px;
         font-size: 8px;
     }
+    #javaimg{
+        width: 60px;
+        height: 60px;
+    }
+    #javaimg1{
+        width: 60px;
+        height: 60px;
+    }
+    #htmlimg{
+        width: 60px;
+        height: 60px;
+    }
+    #cimg{
+        width: 60px;
+        height: 60px;
+    }
+    #reactimg{
+        width: 60px;
+        height: 60px;
+    }
+    #cssimg{
+        width: 60px;
+        height: 60px;
+    }
+    #phythonimg{
+        width: 60px;
+        height: 60px;
+    }
 }
 
 
