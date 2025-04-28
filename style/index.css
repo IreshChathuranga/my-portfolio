@@ -2601,6 +2601,28 @@ item:hover::before {
     .languages-name li span::after{
         top: 6px;
     }
+    .toolsbar{
+        top: 350px;
+        border-radius: 22px;
+        width: 130px;
+        height: 50px;
+        right: 30px;
+    }
+    .blur{
+        border-radius: 22px;
+        width: 130px;
+        height: 50px;
+        gap: 2px;
+        right: 30px;
+    }
+    .tool-desc{
+        font-size: 8px;
+    }
+    .tools img{
+        padding-top: 5px;
+        width: 17px;
+        height: 17px;
+    }
 }
 
 
