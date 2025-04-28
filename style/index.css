@@ -2545,6 +2545,19 @@ item:hover::before {
     .item>div:nth-child(2)>p1{
         width: 130px;
     }
+    #next , #prev{
+        left: 120px;
+        font-size: x-small;
+    }
+    #next{
+        left: unset;
+        right: 120px;
+    }
+    .getmore{
+        width: 70px;
+        height: 25px;
+        font-size: 8px;
+    }
 }
 
 
