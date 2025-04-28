@@ -2730,6 +2730,11 @@ item:hover::before {
         height: 300px;
         border-radius: 30px;
     }
+    .blurdiv{
+        width: 170px;
+        height: 300px;
+        border-radius: 30px;
+    }
 }
 
 
