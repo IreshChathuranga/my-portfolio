@@ -2687,6 +2687,14 @@ item:hover::before {
     .card{
         width: 280px;
     }
+    input:checked + label{
+        width: 280px;
+    }
+    .wrapper>button{
+        width: 70px;
+        height: 25px;
+        font-size: 8px;
+    }
 }
 
 
