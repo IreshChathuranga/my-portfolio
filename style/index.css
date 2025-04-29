@@ -2201,6 +2201,18 @@ item:hover::before {
         width: 100px;
         height: 100px;
     }
+    .languages>div:first-child{
+        transform: skewX(15deg);
+    }
+    .know{
+        font-size:50px;
+        top: 100px;
+        left: -20px;
+    }
+    .lang-namebar{
+        top: 260px;
+        left: -75px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
