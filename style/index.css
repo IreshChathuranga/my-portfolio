@@ -2432,6 +2432,15 @@ item:hover::before {
         background-image: url("../assets/image/picture.jpg");
         background-size: cover;
     }
+    .contact>div:nth-child(10){
+        height: 300px;
+        top: 330px;
+        justify-content: left;
+    }
+    .contact>div:nth-child(10)>div:first-child{
+        width: 130px;
+        height: 130px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
