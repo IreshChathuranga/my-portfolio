@@ -2123,6 +2123,15 @@ item:hover::before {
         left: 170px;
         font-size: x-small;
     }
+    #next{
+        left: unset;
+        right: 170px;
+    }
+    .getmore{
+        width: 100px;
+        height: 43px;
+        font-size: 13px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
