@@ -2320,6 +2320,25 @@ item:hover::before {
         top: 60px;
         font-size: 70px;
     }
+    .gallery-left>div{
+        top: 210px;
+        right: -230px;
+        width: 470px;
+        height: 325px;
+    }
+    .left-gallerybar>span{
+        width: 210px;
+        height: 322px;
+        border-radius: 35px;
+    }
+    @keyframes animate_leftgallerybar {
+        0%{
+            transform: translateX(30%)
+        }
+        100%{
+            transform: translateX(-230%)
+        }
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
