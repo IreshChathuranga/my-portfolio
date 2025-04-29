@@ -2189,6 +2189,18 @@ item:hover::before {
         width: 100px;
         height: 100px;
     }
+    #reactimg{
+        width: 100px;
+        height: 100px;
+    }
+    #cssimg{
+        width: 100px;
+        height: 100px;
+    }
+    #phythonimg{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
