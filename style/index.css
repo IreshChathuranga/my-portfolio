@@ -2110,6 +2110,19 @@ item:hover::before {
     .item>div:nth-child(3){
         height: 40px;
     }
+    .item-btn{
+        bottom: 9px;
+        width: 60px;
+        height: 20px;
+        font-size: 12px;
+    }
+    #next , #prev{
+        width: 30px;
+        height: 30px;
+        top: 350px;
+        left: 170px;
+        font-size: x-small;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
