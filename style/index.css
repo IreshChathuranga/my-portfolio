@@ -2173,6 +2173,22 @@ item:hover::before {
             right: 100px;
         }
     }
+    #javaimg{
+        width: 100px;
+        height: 100px;
+    }
+    #javaimg1{
+        width: 100px;
+        height: 100px;
+    }
+    #htmlimg{
+        width: 100px;
+        height: 100px;
+    }
+    #cimg{
+        width: 100px;
+        height: 100px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
