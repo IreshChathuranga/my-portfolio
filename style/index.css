@@ -1927,6 +1927,23 @@ item:hover::before {
     .card{
         width: 50px;
     }
+    .card> .row>.icon{
+        width: 20px;
+        height: 20px;
+        bottom: -8px;
+        left: -10px;
+    }
+    input:checked + label{
+        width: 280px;
+        height: 300px;
+    }
+    .wrapper>button{
+        bottom: 5px;
+        width: 100px;
+        height: 43px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
