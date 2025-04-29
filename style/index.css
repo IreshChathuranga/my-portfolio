@@ -1970,6 +1970,40 @@ item:hover::before {
         height: 30px;
         font-size: 7px;
     }
+    .circle1{
+        top: 50px;
+        right: 400px;
+    }
+    @keyframes circle1_animate {
+        from{
+            width: 110px;
+            height: 110px;
+        }
+        to{
+            width: 80px;
+            height: 80px;
+            right: 300px;
+        }
+    }
+    .circle2{
+        top: 30px;
+        right:50px;
+        filter: blur(20px);
+        animation-duration: 10s;
+        animation-direction: alternate-reverse;
+    }
+    @keyframes circle2_animate {
+        from{
+            width: 70px;
+            height: 70px;
+        }
+        to{
+            width: 70px;
+            height: 70px;
+            top: 200px;
+            right: 250px;
+        }
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
