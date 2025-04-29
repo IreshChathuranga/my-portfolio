@@ -2033,6 +2033,21 @@ item:hover::before {
             right: 330px;
         }
     }
+    .circle5{
+        right: 10px;
+        width: 120px;
+        height: 120px;
+        animation-duration: 8s;
+    }
+    @keyframes circle5_animate {
+        from{
+            top: 300px;
+        }
+        to{
+            top: 200px;
+            right: 200px;
+        }
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
