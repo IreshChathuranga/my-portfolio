@@ -2048,6 +2048,21 @@ item:hover::before {
             right: 200px;
         }
     }
+    .assignment>h1{
+        top: 30px;
+        font-size: 15px;
+        letter-spacing: 10px;
+    }
+    .mainslider{
+        height: 250px;
+    }
+    .silder{
+        height: 320px;
+    }
+    .item{
+        width: 180px;
+        height: 300px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
