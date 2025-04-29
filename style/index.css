@@ -2390,6 +2390,18 @@ item:hover::before {
         height: 410px;
         flex-direction: column;
     }
+    .contact>div>div:first-child{
+        position: relative;
+        left: 35px;
+        width:450px;
+        height: 500px;
+    }
+    .contact h1{
+        font-size: 95px;
+    }
+    .contact>div>div>h1:nth-child(2){
+        top: 110px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
