@@ -2441,6 +2441,15 @@ item:hover::before {
         width: 130px;
         height: 130px;
     }
+    .scale-circle>div:first-child{
+        width: 95px;
+        height: 95px;
+        font-size: 14px;
+    }
+    .scale-circle>div:nth-child(2){
+        width: 110px;
+        height: 110px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
