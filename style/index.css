@@ -2132,6 +2132,24 @@ item:hover::before {
         height: 43px;
         font-size: 13px;
     }
+    .circle6 {
+        right: 200px;
+        filter: blur(30px);
+        animation-duration: 25s;
+    }
+    @keyframes circle6_animate {
+        from{
+            width: 70px;
+            height: 70px;
+            top: 590px;
+        }
+        to{
+            width: 80px;
+            height: 80px;
+            top: 100px;
+            right: 250px;
+        }
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
