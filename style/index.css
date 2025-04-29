@@ -2213,6 +2213,22 @@ item:hover::before {
         top: 260px;
         left: -75px;
     }
+    .languages-name{
+        height: 50px;
+        line-height: 70px;
+    }
+    .languages-name li {
+        font-size: 26px;
+        top: 0;
+    }
+    @keyframes namescroll {
+        100%{
+            top: -280px;
+        }
+    }
+    .languages-name li span::after{
+        top: 4px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
