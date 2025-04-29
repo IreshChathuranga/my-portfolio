@@ -1887,6 +1887,18 @@ item:hover::before {
         top: 50px;
         margin:auto;
     }
+    .description > div:first-child {
+        font-size: 23px;
+        right: 220px;
+        top: 80px;
+    }
+    .description>div:nth-child(2){
+        font-size: 32px;
+        top: 110px;
+        right: 15px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
