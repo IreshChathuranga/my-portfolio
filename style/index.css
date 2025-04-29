@@ -2150,6 +2150,29 @@ item:hover::before {
             right: 250px;
         }
     }
+    .circle8 {
+        width: 70px;
+        height: 70px;
+    }
+    .circle9 {
+        width: 100px;
+        height: 100px;
+    }
+    .circle10 {
+        width: 60px;
+        height: 60px;
+        filter: blur(30px);
+    }
+    @keyframes circle10_animate {
+        from{
+            top: 500px;
+            right: 250px;
+        }
+        to{
+            top: 50px;
+            right: 100px;
+        }
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
