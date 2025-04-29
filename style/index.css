@@ -1899,6 +1899,20 @@ item:hover::before {
         letter-spacing: 2px;
         word-spacing: 3px;
     }
+    .words{
+        height: 30px;
+    }
+    .words>span{
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+    .p1{
+        font-size: 10px;
+        top: 130px;
+        right: 67px;
+        border-radius: 10px;
+        box-shadow: none;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
