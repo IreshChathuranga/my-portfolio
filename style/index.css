@@ -2063,6 +2063,28 @@ item:hover::before {
         width: 180px;
         height: 300px;
     }
+    .item::before{
+        left: 180%;
+        width: 100px;
+        height: 310px;
+    }
+    .item::after {
+        left: 180%;
+        width: 70px;
+        height: 310px;
+    }
+    item:hover::before {
+        left: 420%;
+    }
+    .item:hover::after {
+        left: 220%;
+    }
+    .item:not(:hover)::before {
+        left: -220px;
+    }
+    .item:not(:hover)::after {
+        left: -220px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
