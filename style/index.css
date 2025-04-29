@@ -2229,6 +2229,18 @@ item:hover::before {
     .languages-name li span::after{
         top: 4px;
     }
+    .toolsbar{
+        top: 400px;
+        border-radius: 35px;
+        width: 160px;
+        height: 80px;
+    }
+    .blur{
+        border-radius: 35px;
+        width: 160px;
+        height: 80px;
+        gap: 5px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
