@@ -1913,6 +1913,20 @@ item:hover::before {
         border-radius: 10px;
         box-shadow: none;
     }
+    .wrapper>h1{
+        top: 5%;
+        font-size: 15px;
+        letter-spacing: 15px;
+    }
+    .container{
+        top: 120px;
+        width: 600px;
+        height: 300px;
+        gap: 5px;
+    }
+    .card{
+        width: 50px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
