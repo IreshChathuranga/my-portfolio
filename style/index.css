@@ -2361,6 +2361,20 @@ item:hover::before {
         width: 240px;
         height: 200px;
     }
+    .contact>div:nth-child(4){
+        width: 170px;
+        height: 350px;
+    }
+    .contact>div:nth-child(5){
+        right: 100px;
+        width: 230px;
+        height: 180px;
+    }
+    .contact>div:nth-child(6){
+        left: 100px;
+        width: 260px;
+        height: 160px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
