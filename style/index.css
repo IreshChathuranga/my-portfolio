@@ -2291,6 +2291,25 @@ item:hover::before {
         width: 60px;
         height: 60px;
     }
+    .circle15{
+        width: 70px;
+        height: 70px;
+        animation-duration: 10s;
+    }
+    @keyframes circle15_animate {
+        from{
+            top: 150px;
+            right: 500px;
+        }
+        to{
+            top: 80px;
+            right: 80px;
+        }
+    }
+    .circle16{
+        left: 30px;
+        top: 480px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
