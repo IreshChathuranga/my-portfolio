@@ -1944,6 +1944,32 @@ item:hover::before {
         font-size: 13px;
         margin-bottom: 30px;
     }
+    .desc{
+        width: 200px;
+        height: 290px;
+        top: 12px;
+        margin-left: 13px;
+        margin-bottom: 10px;
+        padding-right: 30px;
+    }
+    .desc h4{
+        font-size: 16px;
+        letter-spacing: 7px;
+        border-radius: 7px;
+    }
+    .desc p{
+        font-size: 10px;
+        margin: 10px;
+        padding-left: 16px;
+        border-radius: 10px;
+    }
+    .desc button{
+        padding: 0px 0px;
+        top: 252px;
+        width: 80px;
+        height: 30px;
+        font-size: 7px;
+    }
 }
 @media all and (max-width: 425px){
     .herosection{
