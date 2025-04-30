@@ -1802,6 +1802,22 @@ item:hover::before {
         left: 0px;
         bottom: 450px;
     }
+    #name{
+        font-size: 110px;
+        top: 340px;
+    }
+    .description > div:first-child {
+        font-size: 27px;
+        right: 327px;
+        top: 78px;
+    }
+    .description>div:nth-child(2){
+        font-size: 40px;
+        top: 108px;
+        right: 67px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
