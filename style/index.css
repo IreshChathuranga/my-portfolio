@@ -1825,6 +1825,16 @@ item:hover::before {
         padding-bottom: 10px;
         line-height: 30px;
     }
+    .p1{
+        font-size: 13px;
+        top: 132px;
+        right: 120px;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+    .wrapper{
+        height: 100vh;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
@@ -1879,9 +1889,6 @@ item:hover::before {
         right: 15px;
         letter-spacing: 2px;
         word-spacing: 3px;
-    }
-    .words{
-        height: 30px;
     }
     .words>span{
         padding-bottom: 10px;
