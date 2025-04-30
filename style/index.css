@@ -1770,7 +1770,19 @@ item:hover::before {
     }
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 1024px){
+    .nav{
+        height: 45px;
+    }
+    .myicon{
+        width: 65px;
+        height: 55px;
+    }
+    .navmenu li{
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 768px){
     .myicon{
         width: 65px;
         height: 55px;
@@ -1796,81 +1808,6 @@ item:hover::before {
         bottom: 40px;
         transform: translate(-70px, 0);
     }
-    .profile{
-        height: 89vh;
-    }
-    .description > div:first-child {
-        font-size: 30px;
-        right: 300px;
-        top: 160px;
-    }
-    .description>div:nth-child(2){
-        font-size: 40px;
-        top: 190px;
-        right: 3px;
-    }
-    .p1{
-        font-size: 15px;
-        top: 230px;
-        right: 85px;
-    }
-    /*.wrapper>h1{*/
-    /*    top: 5%;*/
-    /*    font-size: 17px;*/
-    /*    letter-spacing: 15px;*/
-    /*}*/
-    /*.container{*/
-    /*    top: 150px;*/
-    /*    width: 600px;*/
-    /*    height: 300px;*/
-    /*    gap: 20px;*/
-    /*}*/
-    /*.card> .row>.icon{*/
-    /*    width: 30px;*/
-    /*    height: 30px;*/
-    /*    bottom: -8px;*/
-    /*    left: -10px;*/
-    /*}*/
-    /*.wrapper>button{*/
-    /*    bottom: 43px;*/
-    /*    width: 120px;*/
-    /*    height: 50px;*/
-    /*    font-size: 15px;*/
-    /*    margin-bottom: 30px;*/
-    /*}*/
-    /*.desc{*/
-    /*    width: 200px;*/
-    /*    height: 290px;*/
-    /*    top: 12px;*/
-    /*    margin-left: 13px;*/
-    /*    margin-bottom: 10px;*/
-    /*    padding-right: 30px;*/
-    /*}*/
-    /*.desc h4{*/
-    /*    font-size: 16px;*/
-    /*    letter-spacing: 7px;*/
-    /*    border-radius: 7px;*/
-    /*}*/
-    /*.desc p{*/
-    /*    font-size: 10px;*/
-    /*    margin: 10px;*/
-    /*    padding-left: 16px;*/
-    /*    border-radius: 10px;*/
-    /*}*/
-    /*.desc button{*/
-    /*    padding: 0px 0px;*/
-    /*    top: 252px;*/
-    /*    width: 80px;*/
-    /*    height: 30px;*/
-    /*    font-size: 7px;*/
-    /*}*/
-    .assignment>h1{
-        top: 5%;
-        font-size: 17px;
-        letter-spacing: 15px;
-    }
-}
-@media all and (max-width: 768px){
     .herosection{
         height: 91vh;
     }
