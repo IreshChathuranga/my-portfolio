@@ -1866,6 +1866,16 @@ item:hover::before {
         font-size: 14px;
         margin-bottom: 30px;
     }
+    .assignment>h1{
+        top: 20px;
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+    .getmore{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
