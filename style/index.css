@@ -1781,6 +1781,18 @@ item:hover::before {
     .navmenu li{
         font-size: 12px;
     }
+    .socialmedia a img{
+        width: 23px;
+        height: 23px;
+    }
+    .socialbar{
+        height: 40vh;
+        gap: 8px;
+        top: 0;
+        bottom: 0px;
+        margin: auto;
+        transform: translate(-70px, 0);
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
