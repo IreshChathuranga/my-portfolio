@@ -1835,6 +1835,20 @@ item:hover::before {
     .wrapper{
         height: 100vh;
     }
+    .wrapper>h1{
+        top: 5%;
+        font-size: 20px;
+        letter-spacing: 17px;
+    }
+    .container{
+        top: 105px;
+        width: 780px;
+        height: 280px;
+        gap: 15px;
+    }
+    .card{
+        width: 80px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
@@ -1930,7 +1944,6 @@ item:hover::before {
         width: 100px;
         height: 43px;
         font-size: 13px;
-        margin-bottom: 30px;
     }
     .desc{
         width: 200px;
