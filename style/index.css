@@ -1793,6 +1793,15 @@ item:hover::before {
         margin: auto;
         transform: translate(-70px, 0);
     }
+    .herosection{
+        height: 91vh;
+    }
+    .mypic{
+        width: 600px;
+        height: 705px;
+        left: 0px;
+        bottom: 450px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
