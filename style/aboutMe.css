@@ -567,3 +567,12 @@ header {
         right: 1100px;
     }
 }
+.circle7 {
+    z-index: 2;
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #cad100, #71fd00, #0cc270, #157ba8);
+    filter: blur(80px);
+}
