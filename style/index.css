@@ -1876,6 +1876,85 @@ item:hover::before {
         height: 50px;
         font-size: 14px;
     }
+    #javaimg{
+        width: 100px;
+        height: 100px;
+    }
+    #javaimg1{
+        width: 100px;
+        height: 100px;
+    }
+    #htmlimg{
+        width: 100px;
+        height: 100px;
+    }
+    #cimg{
+        width: 100px;
+        height: 100px;
+    }
+    #reactimg{
+        width: 100px;
+        height: 100px;
+    }
+    #cssimg{
+        width: 100px;
+        height: 100px;
+    }
+    #phythonimg{
+        width: 100px;
+        height: 100px;
+    }
+    .languages>div:first-child{
+        transform: skewX(15deg);
+    }
+    .know{
+        font-size:50px;
+        top: 100px;
+        left: -20px;
+    }
+    .lang-namebar{
+        top: 260px;
+        left: -75px;
+    }
+    .languages-name{
+        height: 50px;
+        line-height: 70px;
+    }
+    .languages-name li {
+        font-size: 26px;
+        top: 0;
+    }
+    @keyframes namescroll {
+        100%{
+            top: -280px;
+        }
+    }
+    .languages-name li span::after{
+        top: 4px;
+    }
+    .toolsbar{
+        top: 400px;
+        border-radius: 35px;
+        width: 160px;
+        height: 80px;
+    }
+    .blur{
+        border-radius: 35px;
+        width: 160px;
+        height: 80px;
+        gap: 5px;
+    }
+    .tool-desc{
+        padding: 0;
+        margin: 0;
+        font-size: 10px;
+    }
+    .tools img{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
@@ -2200,85 +2279,6 @@ item:hover::before {
             top: 50px;
             right: 100px;
         }
-    }
-    #javaimg{
-        width: 100px;
-        height: 100px;
-    }
-    #javaimg1{
-        width: 100px;
-        height: 100px;
-    }
-    #htmlimg{
-        width: 100px;
-        height: 100px;
-    }
-    #cimg{
-        width: 100px;
-        height: 100px;
-    }
-    #reactimg{
-        width: 100px;
-        height: 100px;
-    }
-    #cssimg{
-        width: 100px;
-        height: 100px;
-    }
-    #phythonimg{
-        width: 100px;
-        height: 100px;
-    }
-    .languages>div:first-child{
-        transform: skewX(15deg);
-    }
-    .know{
-        font-size:50px;
-        top: 100px;
-        left: -20px;
-    }
-    .lang-namebar{
-        top: 260px;
-        left: -75px;
-    }
-    .languages-name{
-        height: 50px;
-        line-height: 70px;
-    }
-    .languages-name li {
-        font-size: 26px;
-        top: 0;
-    }
-    @keyframes namescroll {
-        100%{
-            top: -280px;
-        }
-    }
-    .languages-name li span::after{
-        top: 4px;
-    }
-    .toolsbar{
-        top: 400px;
-        border-radius: 35px;
-        width: 160px;
-        height: 80px;
-    }
-    .blur{
-        border-radius: 35px;
-        width: 160px;
-        height: 80px;
-        gap: 5px;
-    }
-    .tool-desc{
-        padding: 0;
-        margin: 0;
-        font-size: 10px;
-    }
-    .tools img{
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 20px;
-        height: 20px;
     }
     .circle11{
         width: 80px;
