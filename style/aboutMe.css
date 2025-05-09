@@ -606,3 +606,25 @@ header {
     );
     filter: blur(50px);
 }
+.circle0{
+    z-index: 0;
+    position: absolute;
+    top: 550px;
+    right: 200px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #cad100, #71fd00, #0cc270, #157ba8);
+    filter: blur(20px);
+}
+.circle9 {
+    position: absolute;
+    top: 350px;
+    right: 500px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: linear-gradient(90deg, #111111, #28282a, #797373, #a4a9ad,
+    #C1C9D9, #beb7b7);
+    filter: blur(40px);
+}
