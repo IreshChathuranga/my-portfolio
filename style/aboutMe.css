@@ -548,4 +548,22 @@ header {
     background-image: linear-gradient(200deg, #111111, #b9b9da, #1f4188, #7722c7,
     #d40fda, #d90b72);
     filter: blur(40px);
+    animation-name: circle6_animate;
+    animation-duration: 15s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes circle6_animate {
+    from{
+        width: 150px;
+        height: 150px;
+        top: 590px;
+    }
+    to{
+        width: 150px;
+        height: 150px;
+        top: 100px;
+        right: 1100px;
+    }
 }
