@@ -780,4 +780,15 @@ section{
         border-bottom: 1px solid transparent;
         backdrop-filter: blur(0);
     }
+    .socialmedia a img{
+        width: 20px;
+        height: 20px;
+    }
+    .socialbar{
+        height: 40vh;
+        gap: 10px;
+        top: 0;
+        bottom: 40px;
+        transform: translate(-70px, 0);
+    }
 }
