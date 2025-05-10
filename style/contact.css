@@ -885,4 +885,17 @@ section{
         bottom: 40px;
         transform: translate(-70px, 0);
     }
+    .base{
+        width: 100vw;
+    }
+    .base>div:first-child{
+        width: 100vw;
+    }
+    .base>div:first-child>h1{
+        left: 90px;
+        font-size: 40px;
+    }
+    .base>div:nth-child(2){
+        width: 100vw;
+    }
 }
