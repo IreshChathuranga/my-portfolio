@@ -765,3 +765,19 @@ section{
         width: 600px;
     }
 }
+@media all and (max-width: 850px){
+    .myicon{
+        width: 65px;
+        height: 55px;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .navmenu {
+        display: none;
+    }
+    .nav{
+        border-bottom: 1px solid transparent;
+        backdrop-filter: blur(0);
+    }
+}
