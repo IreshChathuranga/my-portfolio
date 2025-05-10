@@ -975,4 +975,14 @@ header {
         top: 130px;
         right: 80px;
     }
+    .left-side>div:nth-child(3){
+        z-index: 3;
+        width: 400px;
+        height: 260px;
+        font-size: 22px;
+        bottom: 70px;
+    }
+    .left-side>div:nth-child(3)::before{
+        height: 300px;
+    }
 }
