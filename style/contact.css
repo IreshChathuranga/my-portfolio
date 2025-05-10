@@ -910,4 +910,16 @@ section{
     .input{
         width: 350px;
     }
+    .base>div:nth-child(3){
+        width: 100vw;
+    }
+    .send{
+        width: 110px;
+        height: 110px;
+    }
+    .send>div:first-child{
+        width: 80px;
+        height: 80px;
+        font-size: 14px;
+    }
 }
