@@ -860,31 +860,6 @@ section{
     }
 }
 @media all and (max-width: 620px){
-    .myicon{
-        width: 65px;
-        height: 55px;
-        position: absolute;
-        top: 10px;
-        left: 15px;
-    }
-    .navmenu {
-        display: none;
-    }
-    .nav{
-        border-bottom: 1px solid transparent;
-        backdrop-filter: blur(0);
-    }
-    .socialmedia a img{
-        width: 20px;
-        height: 20px;
-    }
-    .socialbar{
-        height: 40vh;
-        gap: 10px;
-        top: 0;
-        bottom: 40px;
-        transform: translate(-70px, 0);
-    }
     .base{
         width: 100vw;
     }
@@ -932,5 +907,20 @@ section{
     }
     .line{
         width: 280px;
+    }
+}
+@media all and (max-width: 425px){
+    .base{
+        width: 100vw;
+    }
+    .base>div:first-child{
+        width: 100vw;
+    }
+    .base>div:first-child>h1{
+        left: 50px;
+        font-size: 33px;
+    }
+    .base>div:nth-child(2){
+        width: 100vw;
     }
 }
