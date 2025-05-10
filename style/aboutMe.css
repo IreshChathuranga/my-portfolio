@@ -809,4 +809,18 @@ header {
         margin: auto;
         transform: translate(-70px, 0);
     }
+    .aboutme{
+        width: 100vw;
+    }
+    .left-side{
+        width: 650px;
+    }
+    .left-side>div:first-child{
+        font-size: 100px;
+        top: 80px;
+    }
+    .left-side>div:nth-child(2){
+        font-size: 57px;
+        top: 165px;
+    }
 }
