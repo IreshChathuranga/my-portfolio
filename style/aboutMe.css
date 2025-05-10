@@ -813,7 +813,7 @@ header {
         width: 100vw;
     }
     .left-side{
-        width: 650px;
+        width: 550px;
     }
     .left-side>div:first-child{
         font-size: 100px;
@@ -843,5 +843,28 @@ header {
         width: 280px;
         height: 390px;
         right: -20px;
+    }
+    .circle9{
+        z-index: 2;
+    }
+    .education-grid>div:first-child>h1{
+        font-size: 26px;
+        letter-spacing: 20px;
+    }
+}
+@media all and (max-width: 850px){
+    .myicon{
+        width: 65px;
+        height: 55px;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .navmenu {
+        display: none;
+    }
+    .nav{
+        border-bottom: 1px solid transparent;
+        backdrop-filter: blur(0);
     }
 }
