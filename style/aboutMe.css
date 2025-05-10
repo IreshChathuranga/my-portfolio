@@ -985,4 +985,20 @@ header {
     .left-side>div:nth-child(3)::before{
         height: 300px;
     }
+    .outer-div{
+        display: none;
+    }
+    .outer-div>div{
+        display: none;
+    }
+    .inside-div{
+        display: none;
+    }
+    .education-grid>div:first-child>h1{
+        font-size: 16px;
+        letter-spacing: 10px;
+    }
+    .card-div>div{
+        width: 170px;
+    }
 }
