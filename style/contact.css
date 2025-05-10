@@ -835,4 +835,16 @@ section{
     .my-details>div:nth-child(4){
         display: none;
     }
+    .base>div:nth-child(3){
+        width: 90vw;
+    }
+    .send{
+        width: 130px;
+        height: 130px;
+    }
+    .send>div:first-child{
+        width: 100px;
+        height: 100px;
+        font-size: 14px;
+    }
 }
