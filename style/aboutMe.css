@@ -831,4 +831,17 @@ header {
     .left-side>div:nth-child(3)::before{
         height: 220px;
     }
+    .outer-div{
+        width: 280px;
+        height: 390px;
+    }
+    .outer-div>div{
+        width: 280px;
+        height: 390px;
+    }
+    .inside-div{
+        width: 280px;
+        height: 390px;
+        right: -20px;
+    }
 }
