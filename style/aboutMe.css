@@ -9,6 +9,7 @@ html, body {
     overflow-x: hidden;
 }
 body{
+    background:  var(--third-color);
     margin: 0;
     padding: 0;
     position: relative;
@@ -158,13 +159,15 @@ header {
     height: 100vh;
     display: grid;
     grid-template-columns:repeat(2, 1fr) ;
+    border: 1px solid white;
 }
 .aboutme>div{
-    border: 1px solid transparent;
+    border: 1px solid whitesmoke;
 }
 .left-side{
     width: 750px;
     position: relative;
+    border: 1px solid white;
 }
 .left-side>div:first-child{
     color: #5bdc0b;
@@ -592,7 +595,7 @@ header {
     }
 }
 .circle8 {
-    z-index: 0;
+    z-index: 2;
     position: absolute;
     top: 500px;
     right: 100px;
@@ -607,7 +610,7 @@ header {
     filter: blur(50px);
 }
 .circle0{
-    z-index: 0;
+    z-index: 2;
     position: absolute;
     top: 550px;
     right: 200px;
@@ -618,6 +621,7 @@ header {
     filter: blur(20px);
 }
 .circle9 {
+    z-index: 0;
     position: absolute;
     top: 350px;
     right: 500px;
@@ -781,4 +785,16 @@ header {
     border-radius: 100%;
     background-image: linear-gradient(90deg, #273673, #1616d2, #247496, #9f2e90);
     filter: blur(10px);
+}
+@media all and (max-width: 1055px){
+    .nav{
+        height: 45px;
+    }
+    .myicon{
+        width: 65px;
+        height: 55px;
+    }
+    .navmenu li{
+        font-size: 12px;
+    }
 }
