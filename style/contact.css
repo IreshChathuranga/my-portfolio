@@ -955,4 +955,13 @@ section{
         left: 30px;
         font-size: 30px;
     }
+    .middle-div{
+        width: 280px;
+    }
+    .lable{
+        width: 245px;
+    }
+    .input{
+        width: 245px;
+    }
 }
