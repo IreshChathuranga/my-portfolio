@@ -895,4 +895,18 @@ header {
         height: 220px;
         font-size: 19px;
     }
+    .outer-div{
+        width: 200px;
+        height: 320px;
+        right: 30px;
+    }
+    .outer-div>div{
+        width: 200px;
+        height: 320px;
+    }
+    .inside-div{
+        width: 200px;
+        height: 320px;
+        right: 80px;
+    }
 }
