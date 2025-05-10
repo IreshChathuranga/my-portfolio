@@ -814,4 +814,13 @@ section{
     .from-div::before{
         display: none
     }
+    .lable{
+        width: 550px;
+    }
+    .input{
+        width: 550px;
+    }
+    .my-details{
+        display: none;
+    }
 }
