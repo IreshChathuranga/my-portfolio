@@ -797,4 +797,16 @@ header {
     .navmenu li{
         font-size: 12px;
     }
+    .socialmedia a img{
+        width: 23px;
+        height: 23px;
+    }
+    .socialbar{
+        height: 40vh;
+        gap: 8px;
+        top: 0;
+        bottom: 0px;
+        margin: auto;
+        transform: translate(-70px, 0);
+    }
 }
