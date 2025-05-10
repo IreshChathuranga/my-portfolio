@@ -944,3 +944,15 @@ section{
         width: 200px;
     }
 }
+@media all and (max-width: 375px){
+    .base{
+        width: 100vw;
+    }
+    .base>div:first-child{
+        width: 100vw;
+    }
+    .base>div:first-child>h1{
+        left: 30px;
+        font-size: 30px;
+    }
+}
