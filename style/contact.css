@@ -718,4 +718,12 @@ section{
     #message1{
         top: 350px;
     }
+    .my-details{
+        width: 400px;
+        height: 450px;
+    }
+    .my-details>div:first-child{
+        width: 100px;
+        height: 100px;
+    }
 }
