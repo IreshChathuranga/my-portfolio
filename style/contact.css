@@ -935,4 +935,12 @@ section{
     .input{
         width: 280px;
     }
+    .base>div:nth-child(3){
+        width: 100vw;
+        right: -30px;
+        justify-content: right;
+    }
+    .line{
+        width: 200px;
+    }
 }
