@@ -680,4 +680,16 @@ section{
         width: 720px;
         height: 450px;
     }
+    .from-div::before{
+        width: 720px;
+        height: 450px;
+    }
+    .lable{
+        width: 450px;
+        top: 30px;
+        font-size: 16px;
+        padding-top: 8px;
+        border-top: 1px solid #c9ff00;
+        word-spacing: 3px;
+    }
 }
