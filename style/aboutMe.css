@@ -878,4 +878,21 @@ header {
         bottom: 40px;
         transform: translate(-70px, 0);
     }
+    .left-side{
+        width: 480px;
+    }
+    .left-side>div:first-child{
+        font-size: 90px;
+        left: 70px;
+    }
+    .left-side>div:nth-child(2){
+        font-size: 48px;
+        top: 160px;
+        right: 65px;
+    }
+    .left-side>div:nth-child(3){
+        width: 320px;
+        height: 220px;
+        font-size: 19px;
+    }
 }
