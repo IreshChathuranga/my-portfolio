@@ -922,4 +922,15 @@ section{
         height: 80px;
         font-size: 14px;
     }
+    .send>div:nth-child(2){
+        width: 100px;
+        height: 100px;
+    }
+    .send>div:nth-child(3){
+        width: 110px;
+        height: 110px;
+    }
+    .line{
+        width: 280px;
+    }
 }
