@@ -659,4 +659,14 @@ section{
         margin: auto;
         transform: translate(-70px, 0);
     }
+    .base{
+        width: 100vw;
+    }
+    .base>div:first-child{
+        width: 100vw;
+    }
+    .base>div:first-child>h1{
+        left: 100px;
+        font-size: 60px;
+    }
 }
