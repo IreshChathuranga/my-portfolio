@@ -836,7 +836,7 @@ section{
         display: none;
     }
     .base>div:nth-child(3){
-        width: 90vw;
+        width: 95vw;
     }
     .send{
         width: 130px;
@@ -857,5 +857,21 @@ section{
     }
     .line{
         width: 380px;
+    }
+}
+@media all and (max-width: 620px){
+    .myicon{
+        width: 65px;
+        height: 55px;
+        position: absolute;
+        top: 10px;
+        left: 15px;
+    }
+    .navmenu {
+        display: none;
+    }
+    .nav{
+        border-bottom: 1px solid transparent;
+        backdrop-filter: blur(0);
     }
 }
