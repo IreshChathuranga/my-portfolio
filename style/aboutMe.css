@@ -909,4 +909,19 @@ header {
         height: 320px;
         right: 80px;
     }
+    .education-grid>div:first-child>h1{
+        font-size: 22px;
+        letter-spacing: 16px;
+    }
+    .card-div>div{
+        width: 200px;
+    }
+    .card-div>div::before{
+        display: none;
+    }
+    .card1>div:first-child{
+        width: 110px;
+        height: 110px;
+        border-radius: 30px;
+    }
 }
