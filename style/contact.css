@@ -898,4 +898,16 @@ section{
     .base>div:nth-child(2){
         width: 100vw;
     }
+    .middle-div{
+        width: 400px;
+    }
+    .from-div{
+        width: 650px;
+    }
+    .lable{
+        width: 350px;
+    }
+    .input{
+        width: 350px;
+    }
 }
