@@ -704,4 +704,18 @@ section{
     .lable4{
         top: 300px;
     }
+    .input{
+        width: 450px;
+        height: 20px;
+        top: 80px;
+    }
+    #email{
+        top: 170px;
+    }
+    #message{
+        top: 260px;
+    }
+    #message1{
+        top: 350px;
+    }
 }
