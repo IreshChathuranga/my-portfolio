@@ -692,4 +692,16 @@ section{
         border-top: 1px solid #c9ff00;
         word-spacing: 3px;
     }
+    .number{
+        font-size: 14px;
+    }
+    .lable2{
+        top: 120px;
+    }
+    .lable3{
+        top: 210px;
+    }
+    .lable4{
+        top: 300px;
+    }
 }
