@@ -823,4 +823,16 @@ section{
     .my-details{
         display: none;
     }
+    .my-details>div:first-child{
+        display: none;
+    }
+    .my-details>div:nth-child(2){
+        display: none;
+    }
+    .my-details>div:nth-child(3){
+        display: none;
+    }
+    .my-details>div:nth-child(4){
+        display: none;
+    }
 }
