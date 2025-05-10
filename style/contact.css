@@ -152,9 +152,10 @@ section{
     height: 160vh;
     display: grid;
     grid-template-columns:repeat(1, 3fr) ;
+    border: 1px solid white;
 }
 .base>div{
-    border: 1px solid transparent;
+    border: 1px solid whitesmoke;
 }
 .base>div:first-child{
     position: relative;
@@ -162,6 +163,7 @@ section{
     justify-content: left;
     width: 100%;
     height: 30vh;
+    border: 1px solid white;
 }
 .base>div:first-child>h1{
     align-self: center;
@@ -633,4 +635,16 @@ section{
     border-radius: 100%;
     background-image: linear-gradient(90deg, #d10076, #d20e42, #8d18ec, #2f08dc);
     filter: blur(10px);
+}
+@media all and (max-width: 1055px){
+    .nav{
+        height: 45px;
+    }
+    .myicon{
+        width: 65px;
+        height: 55px;
+    }
+    .navmenu li{
+        font-size: 12px;
+    }
 }
