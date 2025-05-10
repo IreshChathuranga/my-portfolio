@@ -955,5 +955,24 @@ header {
         width: 130px;
         height: 52px;
         margin-bottom: 14px;
+        font-size: 17px;
+    }
+    .circle9{
+        display: none;
+    }
+}
+@media all and (max-width: 700px){
+    .left-side{
+        width: 100vw;
+    }
+    .left-side>div:first-child{
+        top: 30px;
+        font-size: 110px;
+        left: 90px;
+    }
+    .left-side>div:nth-child(2){
+        font-size: 55px;
+        top: 130px;
+        right: 80px;
     }
 }
