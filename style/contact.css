@@ -749,4 +749,19 @@ section{
         width: 100vw;
         height: 38vh;
     }
+    .send{
+        width: 170px;
+        height: 170px;
+    }
+    .send>div:first-child{
+        width: 130px;
+        height: 130px;
+    }
+    .send>div:nth-child(2){
+        width: 150px;
+        height: 150px;
+    }
+    .line{
+        width: 600px;
+    }
 }
