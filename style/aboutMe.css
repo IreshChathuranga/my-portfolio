@@ -823,4 +823,12 @@ header {
         font-size: 57px;
         top: 165px;
     }
+    .left-side>div:nth-child(3){
+        width: 400px;
+        height: 220px;
+        font-size: 22px;
+    }
+    .left-side>div:nth-child(3)::before{
+        height: 220px;
+    }
 }
