@@ -1038,3 +1038,10 @@ header {
         margin-bottom: 14px;
     }
 }
+@media all and (max-width: 580px){
+    .left-side>div:first-child{
+        top: 30px;
+        font-size: 100px;
+        left: 83px;
+    }
+}
