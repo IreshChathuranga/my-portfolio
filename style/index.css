@@ -247,6 +247,23 @@ header {
         left: 100%;
     }
 }
+.fa-hands-clapping{
+    position: absolute;
+    right: 650px;
+    top:112px;
+    animation: clapAnimation 1s infinite;
+}
+@keyframes clapAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 #name{
     z-index: 1;
     color: #5bdc0b;
