@@ -1071,3 +1071,19 @@ header {
         height: 400px;
     }
 }
+@media all and (max-width: 425px){
+    .left-side>div:first-child{
+        font-size: 75px;
+        left: 55px;
+        top: 45px;
+    }
+    .left-side>div:nth-child(2){
+        right: 50px;
+        font-size: 40px;
+        top: 150px;
+    }
+    .left-side>div:nth-child(3){
+        width: 280px;
+        font-size: 18px;
+    }
+}
