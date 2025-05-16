@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Monoton&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <section class="about">
@@ -61,15 +63,20 @@
         </section>
         <section class="aboutme">
             <div class="left-side">
-                <div>about</div>
-                <div>me</div>
-                <div>
+                <div data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500">about</div>
+                <div data-aos="fade-down"
+                     data-aos-easing="linear"
+                     data-aos-duration="1500">me</div>
+                <div data-aos="fade-up"
+                     data-aos-anchor-placement="center-bottom" data-aos-duration="1500">
                     Welcome!I'm Iresh,a web designer and web developer,thrilled to have you on my portfolio.My
                     mission is to turn complex ideas into simple,engaging user experiences.
                 </div>
             </div>
-            <div class="picture">
-                <div class="outer-div">
+            <div class="picture" data-aos="zoom-in-down" data-aos-duration="3000">
+                <div class="outer-div" >
                     <div>
                         <div class="inside-div"></div>
                     </div>
@@ -90,19 +97,19 @@
             </div>
             <div class="bottom-div">
                 <div class="card-div">
-                    <div class="card1">
+                    <div class="card1" data-aos="fade-down" data-aos-duration="2000">
                         <div id="ijse"></div>
                         <div>
                             This is the institution where I am currently studying. I have successfully completed the 1st semester here.
                         </div>
                     </div>
-                    <div class="card2">
+                    <div class="card2" data-aos="fade-down" data-aos-duration="2600">
                         <div id="school"></div>
                         <div>
                             This is a my school.I successfully completed my O/L and A/L here.
                         </div>
                     </div>
-                    <div class="card3">
+                    <div class="card3" data-aos="fade-down" data-aos-duration="2900">
                         <div id="university"></div>
                         <div>
                             This is a Open University in Sri Lanka.I successfully completed the IT course here.
@@ -115,5 +122,9 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

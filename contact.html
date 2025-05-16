@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/contact.css">
     <link rel="stylesheet" href="assets/lib/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Bebas+Neue&family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -68,10 +69,11 @@
             </div>
             <div class="base">
                 <div>
-                    <h1>let's start a <br>project <i id="together">together</i></h1>
+                    <h1 data-aos="zoom-out" data-aos-duration="2000">let's start a <br>project <i id="together">together</i></h1>
                 </div>
                 <div>
-                    <div class="middle-div">
+                    <div class="middle-div" data-aos="fade-up"
+                         data-aos-duration="3000">
                         <div class="from-div">
                             <form action="submit_form.php" method="post" class="from">
                                 <label for="name" class="lable lable1"><i class="number">01</i>    What your name?</label>
@@ -115,5 +117,9 @@
             <!--                <div>-->
         </section>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
