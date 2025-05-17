@@ -1990,6 +1990,18 @@ item:hover::before {
     .gallery-left h1{
         font-size: 80px;
     }
+    .gallery-left>div{
+        top: 260px;
+        right: -40px;
+        width: 500px;
+        height: 265px;
+        gap: 20px;
+    }
+    .left-gallerybar>span{
+        width: 190px;
+        height: 263px;
+        border: 1px solid white;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
