@@ -2015,6 +2015,15 @@ item:hover::before {
         height: 210px;
         gap: 20px;
     }
+    .right-gallerybar>span{
+        width: 170px;
+        height: 208px;
+        border: 1px solid white;
+    }
+    .blurdiv1{
+        width: 170px;
+        height: 208px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
