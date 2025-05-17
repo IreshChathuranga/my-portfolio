@@ -280,10 +280,6 @@ header {
     animation: scrollText 50s linear infinite;
     word-spacing: 70px;
 }
-/*#profile, #desc {*/
-/*    position: relative; !* Needed to move with left offset *!*/
-/*    transition: left 0.1s ease-out; !* Optional: smooth animation *!*/
-/*}*/
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////*/
 .wrapper{
@@ -1993,128 +1989,6 @@ item:hover::before {
     }
     .gallery-left h1{
         font-size: 80px;
-    }
-    .gallery-left>div{
-        position: absolute;
-        top: 330px;
-        right: -180px;
-        width: 500px;
-        height: 285px;
-        display: flex;
-        gap: 30px;
-        overflow: hidden;
-        border: 1px solid white;
-    }
-    .left-gallerybar>span{
-        width: 245px;
-        height: 320px;
-        border: 1px solid white;
-        border-radius: 30px;
-        animation-name: animate_leftgallerybar;
-        animation-duration: 30s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-direction: alternate;
-    }
-    @keyframes animate_leftgallerybar {
-        0%{
-            transform: translateX(30%)
-        }
-        100%{
-            transform: translateX(-120%)
-        }
-    }
-    .left-gallerybar>span:first-child{
-        background-image: url('../assets/image/mypic1.jpg');
-        background-size: cover;
-        backdrop-filter: blur(40px);
-    }
-    .left-gallerybar>span:nth-child(2){
-        background-image: url('../assets/image/mypic2.jpg');
-        background-size: cover;
-        backdrop-filter: blur(40px);
-    }
-    .left-gallerybar>span:nth-child(3){
-        background-image: url('../assets/image/mypic4.jpg');
-        background-size: cover;
-        backdrop-filter: blur(40px);
-    }
-    .left-gallerybar>span:last-child{
-        background-image: url('../assets/image/mypic5.jpg');
-        background-size: cover;
-        backdrop-filter: blur(40px);
-    }
-    .blurdiv:hover{
-        backdrop-filter: blur(0);
-    }
-    .blurdiv{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 245px;
-        height: 320px;
-        border-radius: 30px;
-        backdrop-filter: blur(10px);
-    }
-    .gallery-right{
-        position: relative;
-    }
-    .gallery-right>div{
-        position: absolute;
-        top: 30px;
-        left: 20px;
-        width: 600px;
-        height: 272px;
-        display: flex;
-        gap: 30px;
-        overflow: hidden;
-    }
-    .right-gallerybar>span{
-        width: 200px;
-        height: 270px;
-        border: 1px solid white;
-        border-radius: 30px;
-        animation-name: animate_rightgallerybar;
-        animation-duration: 30s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-        animation-direction: alternate;
-    }
-    @keyframes animate_rightgallerybar {
-        0%{
-            transform: translateX(-120%)
-        }
-        100%{
-            transform: translateX(10%)
-        }
-    }
-    .blurdiv1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 200px;
-        height: 270px;
-        border-radius: 30px;
-        backdrop-filter: blur(20px);
-    }
-    .right-gallerybar>span:first-child{
-        background-image: url('../assets/image/mypic1.jpg');
-        background-size: cover;
-    }
-    .right-gallerybar>span:nth-child(2){
-        background-image: url('../assets/image/mypic3.jpg');
-        background-size: cover;
-    }
-    .right-gallerybar>span:nth-child(3){
-        background-image: url('../assets/image/mypic4.jpg');
-        background-size: cover;
-    }
-    .right-gallerybar>span:last-child{
-        background-image: url('../assets/image/mypic5.jpg');
-        background-size: cover;
-    }
-    .blurdiv1:hover{
-        backdrop-filter: blur(0);
     }
 }
 @media all and (max-width: 768px){
