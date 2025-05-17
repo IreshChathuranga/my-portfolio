@@ -2002,6 +2002,19 @@ item:hover::before {
         height: 263px;
         border: 1px solid white;
     }
+    .blurdiv{
+        width: 190px;
+        height: 263px;
+    }
+    .gallery-right{
+        position: relative;
+    }
+    .gallery-right>div{
+        left: 70px;
+        width: 380px;
+        height: 210px;
+        gap: 20px;
+    }
 }
 @media all and (max-width: 768px){
     .myicon{
