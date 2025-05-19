@@ -2038,6 +2038,20 @@ item:hover::before {
         width: 280px;
         height: 200px;
     }
+    .contact>div:nth-child(4){
+        width: 210px;
+        height: 350px;
+    }
+    .contact>div:nth-child(5){
+        right: 150px;
+        width: 260px;
+        height: 180px;
+    }
+    .contact>div:nth-child(6){
+        left: 150px;
+        width: 290px;
+        height: 160px;
+    }
 }
 @media all and (max-width: 915px){
     .contact>div:nth-child(10)>div:nth-child(2){
