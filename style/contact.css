@@ -70,6 +70,12 @@ section{
 .navmenu li a:hover:before{
     width: 100%;
 }
+.fa-bars{
+    position: absolute;
+    font-size: 15px;
+    right: -50px;
+    top: 20px;
+}
 .section{
     position: relative;
 }
@@ -777,6 +783,12 @@ section{
     .nav{
         border-bottom: 1px solid transparent;
         backdrop-filter: blur(0);
+    }
+    .fa-bars{
+        position: absolute;
+        font-size: 15px;
+        right: 30px;
+        top: 25px;
     }
     .socialmedia a img{
         width: 20px;
